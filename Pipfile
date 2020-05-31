@@ -7,6 +7,7 @@ verify_ssl = true
 
 [packages]
 apache-airflow = "==1.10.3"
+flask = "==1.0.3"
 
 [requires]
 python_version = "3.7"
