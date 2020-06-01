@@ -1,0 +1,92 @@
+[2020-06-01 12:56:00,843] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: bq_data_v1.bq_write_to_test 2020-06-01T11:51:43.552918+00:00 [queued]>
+[2020-06-01 12:56:00,850] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: bq_data_v1.bq_write_to_test 2020-06-01T11:51:43.552918+00:00 [queued]>
+[2020-06-01 12:56:00,851] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-01 12:56:00,851] {__init__.py:1354} INFO - Starting attempt 2 of 2
+[2020-06-01 12:56:00,852] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-01 12:56:00,862] {__init__.py:1374} INFO - Executing <Task(BigQueryOperator): bq_write_to_test> on 2020-06-01T11:51:43.552918+00:00
+[2020-06-01 12:56:00,862] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'bq_data_v1', 'bq_write_to_test', '2020-06-01T11:51:43.552918+00:00', '--job_id', '29', '--raw', '-sd', 'DAGS_FOLDER/bq_data_v1.py', '--cfg_path', '/var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T/tmpa_4meg_3']
+[2020-06-01 12:56:01,784] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test [2020-06-01 12:56:01,784] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2020-06-01 12:56:02,120] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test [2020-06-01 12:56:02,120] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data_v1.py
+[2020-06-01 12:56:02,519] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test [2020-06-01 12:56:02,519] {cli.py:517} INFO - Running <TaskInstance: bq_data_v1.bq_write_to_test 2020-06-01T11:51:43.552918+00:00 [running]> on host HX3286T2.local
+[2020-06-01 12:56:02,537] {bigquery_operator.py:184} INFO - Executing: 
+    #standardSQL
+            select date, 
+    sum(total_confirmed_cases) as total_confirmed_cases
+    from sandbox-278915:test.covid_italy_daily
+    group by date
+    
+[2020-06-01 12:56:02,893] {__init__.py:1580} ERROR - INTERNAL: No default project is specified
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 209, in execute
+    cluster_fields=self.cluster_fields,
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 771, in run_query
+    default_project_id=self.project_id)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 1992, in _split_tablename
+    raise ValueError("INTERNAL: No default project is specified")
+ValueError: INTERNAL: No default project is specified
+[2020-06-01 12:56:02,897] {__init__.py:1609} INFO - All retries failed; marking task as FAILED
+[2020-06-01 12:56:02,905] {logging_mixin.py:95} INFO - [2020-06-01 12:56:02,905] {configuration.py:287} WARNING - section/key [smtp/smtp_user] not found in config
+[2020-06-01 12:56:02,906] {__init__.py:1615} ERROR - Failed to send email to: ['rebeccavickeryds@gmail.com']
+[2020-06-01 12:56:02,906] {__init__.py:1616} ERROR - [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 209, in execute
+    cluster_fields=self.cluster_fields,
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 771, in run_query
+    default_project_id=self.project_id)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 1992, in _split_tablename
+    raise ValueError("INTERNAL: No default project is specified")
+ValueError: INTERNAL: No default project is specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 1613, in handle_failure
+    self.email_alert(error)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 1829, in email_alert
+    send_email(self.task.email, subject, html_content)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/utils/email.py", line 55, in send_email
+    mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/utils/email.py", line 101, in send_email_smtp
+    send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/utils/email.py", line 121, in send_MIME_email
+    s = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) if SMTP_SSL else smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+[2020-06-01 12:56:02,918] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+[2020-06-01 12:56:02,918] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test   category=DeprecationWarning)
+[2020-06-01 12:56:02,921] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test Traceback (most recent call last):
+[2020-06-01 12:56:02,921] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/bin/airflow", line 32, in <module>
+[2020-06-01 12:56:02,921] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test     args.func(args)
+[2020-06-01 12:56:02,921] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2020-06-01 12:56:02,921] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test     return f(*args, **kwargs)
+[2020-06-01 12:56:02,921] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/bin/cli.py", line 523, in run
+[2020-06-01 12:56:02,921] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test     _run(args, dag, ti)
+[2020-06-01 12:56:02,922] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/bin/cli.py", line 442, in _run
+[2020-06-01 12:56:02,922] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test     pool=args.pool,
+[2020-06-01 12:56:02,922] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2020-06-01 12:56:02,922] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test     return func(*args, **kwargs)
+[2020-06-01 12:56:02,922] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2020-06-01 12:56:02,922] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test     result = task_copy.execute(context=context)
+[2020-06-01 12:56:02,922] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 209, in execute
+[2020-06-01 12:56:02,922] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test     cluster_fields=self.cluster_fields,
+[2020-06-01 12:56:02,922] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 771, in run_query
+[2020-06-01 12:56:02,922] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test     default_project_id=self.project_id)
+[2020-06-01 12:56:02,922] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 1992, in _split_tablename
+[2020-06-01 12:56:02,922] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test     raise ValueError("INTERNAL: No default project is specified")
+[2020-06-01 12:56:02,922] {base_task_runner.py:101} INFO - Job 29: Subtask bq_write_to_test ValueError: INTERNAL: No default project is specified
+[2020-06-01 12:56:05,840] {logging_mixin.py:95} INFO - [2020-06-01 12:56:05,840] {jobs.py:2562} INFO - Task exited with return code 1

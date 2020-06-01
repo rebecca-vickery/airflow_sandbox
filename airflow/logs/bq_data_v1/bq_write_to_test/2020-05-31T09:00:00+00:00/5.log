@@ -1,0 +1,24 @@
+[2020-06-01 14:53:08,303] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: bq_data_v1.bq_write_to_test 2020-05-31T09:00:00+00:00 [queued]>
+[2020-06-01 14:53:08,307] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: bq_data_v1.bq_write_to_test 2020-05-31T09:00:00+00:00 [queued]>
+[2020-06-01 14:53:08,307] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-01 14:53:08,307] {__init__.py:1354} INFO - Starting attempt 5 of 6
+[2020-06-01 14:53:08,307] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-01 14:53:08,314] {__init__.py:1374} INFO - Executing <Task(BigQueryOperator): bq_write_to_test> on 2020-05-31T09:00:00+00:00
+[2020-06-01 14:53:08,314] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'bq_data_v1', 'bq_write_to_test', '2020-05-31T09:00:00+00:00', '--job_id', '33', '--raw', '-sd', 'DAGS_FOLDER/bq_data_v1.py', '--cfg_path', '/var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T/tmpfwz3f2fm']
+[2020-06-01 14:53:08,900] {base_task_runner.py:101} INFO - Job 33: Subtask bq_write_to_test [2020-06-01 14:53:08,900] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2020-06-01 14:53:09,085] {base_task_runner.py:101} INFO - Job 33: Subtask bq_write_to_test [2020-06-01 14:53:09,085] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data_v1.py
+[2020-06-01 14:53:09,370] {base_task_runner.py:101} INFO - Job 33: Subtask bq_write_to_test [2020-06-01 14:53:09,370] {cli.py:517} INFO - Running <TaskInstance: bq_data_v1.bq_write_to_test 2020-05-31T09:00:00+00:00 [running]> on host HX3286T2.local
+[2020-06-01 14:53:09,388] {bigquery_operator.py:184} INFO - Executing: 
+    #standardSQL
+            select date, 
+    sum(total_confirmed_cases) as total_confirmed_cases
+    from bigquery-public-data.covid19_italy.data_by_region
+    where DATE(date) = '2020-05-31'
+    group by date
+    
+[2020-06-01 14:53:10,565] {logging_mixin.py:95} INFO - [2020-06-01 14:53:10,565] {bigquery_hook.py:1251} INFO - Waiting for job to complete : sandbox-278915, job_nfxU3_F3oAE1oMivrEb8ErRMkgLM
+[2020-06-01 14:53:15,807] {base_task_runner.py:101} INFO - Job 33: Subtask bq_write_to_test /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+[2020-06-01 14:53:15,807] {base_task_runner.py:101} INFO - Job 33: Subtask bq_write_to_test   category=DeprecationWarning)
+[2020-06-01 14:53:18,307] {logging_mixin.py:95} INFO - [2020-06-01 14:53:18,307] {jobs.py:2562} INFO - Task exited with return code 0

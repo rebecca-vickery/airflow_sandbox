@@ -8,6 +8,11 @@ verify_ssl = true
 [packages]
 apache-airflow = "==1.10.3"
 flask = "==1.0.3"
+httplib2 = "*"
+google-cloud-storage = "*"
+google-api-python-client = "*"
+google-cloud-bigquery = "*"
+pandas-gbq = "*"
 
 [requires]
 python_version = "3.7"

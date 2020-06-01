@@ -1,0 +1,27 @@
+[2020-05-31 13:22:36,957] {logging_mixin.py:95} INFO - Sending to executor.
+[2020-05-31 13:22:36,958] {logging_mixin.py:95} INFO - [2020-05-31 13:22:36,958] {base_executor.py:59} INFO - Adding to queue: ['airflow', 'run', 'example_bash_operator', 'runme_0', '2020-05-31T00:00:00+00:00', '--local', '-sd', '/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py']
+[2020-05-31 13:22:36,958] {logging_mixin.py:95} INFO - [2020-05-31 13:22:36,958] {sequential_executor.py:45} INFO - Executing command: ['airflow', 'run', 'example_bash_operator', 'runme_0', '2020-05-31T00:00:00+00:00', '--local', '-sd', '/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py']
+[2020-05-31 13:22:37,758] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_0 2020-05-31T00:00:00+00:00 [None]>
+[2020-05-31 13:22:37,761] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_0 2020-05-31T00:00:00+00:00 [None]>
+[2020-05-31 13:22:37,761] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2020-05-31 13:22:37,761] {__init__.py:1354} INFO - Starting attempt 1 of 1
+[2020-05-31 13:22:37,761] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2020-05-31 13:22:37,767] {__init__.py:1374} INFO - Executing <Task(BashOperator): runme_0> on 2020-05-31T00:00:00+00:00
+[2020-05-31 13:22:37,767] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'example_bash_operator', 'runme_0', '2020-05-31T00:00:00+00:00', '--job_id', '2', '--raw', '-sd', '/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py', '--cfg_path', '/var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T/tmpbvigin52']
+[2020-05-31 13:22:38,320] {base_task_runner.py:101} INFO - Job 2: Subtask runme_0 [2020-05-31 13:22:38,320] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2020-05-31 13:22:38,510] {base_task_runner.py:101} INFO - Job 2: Subtask runme_0 [2020-05-31 13:22:38,509] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py
+[2020-05-31 13:22:38,526] {base_task_runner.py:101} INFO - Job 2: Subtask runme_0 [2020-05-31 13:22:38,526] {cli.py:517} INFO - Running <TaskInstance: example_bash_operator.runme_0 2020-05-31T00:00:00+00:00 [running]> on host HX3286T2.local
+[2020-05-31 13:22:38,541] {bash_operator.py:81} INFO - Tmp dir root location: 
+ /var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T
+[2020-05-31 13:22:38,541] {bash_operator.py:90} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=example_bash_operator
+AIRFLOW_CTX_TASK_ID=runme_0
+AIRFLOW_CTX_EXECUTION_DATE=2020-05-31T00:00:00+00:00
+[2020-05-31 13:22:38,542] {bash_operator.py:104} INFO - Temporary script location: /var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T/airflowtmpvicv1h21/runme_0uhfjzgmn
+[2020-05-31 13:22:38,542] {bash_operator.py:114} INFO - Running command: echo "example_bash_operator__runme_0__20200531" && sleep 1
+[2020-05-31 13:22:38,547] {bash_operator.py:123} INFO - Output:
+[2020-05-31 13:22:38,554] {bash_operator.py:127} INFO - example_bash_operator__runme_0__20200531
+[2020-05-31 13:22:39,563] {bash_operator.py:131} INFO - Command exited with return code 0
+[2020-05-31 13:22:42,757] {logging_mixin.py:95} INFO - [2020-05-31 13:22:42,757] {jobs.py:2562} INFO - Task exited with return code 0

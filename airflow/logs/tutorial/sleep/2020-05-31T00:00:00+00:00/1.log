@@ -1,0 +1,34 @@
+[2020-05-31 13:29:27,403] {logging_mixin.py:95} INFO - Sending to executor.
+[2020-05-31 13:29:27,403] {logging_mixin.py:95} INFO - [2020-05-31 13:29:27,403] {base_executor.py:59} INFO - Adding to queue: ['airflow', 'run', 'tutorial', 'sleep', '2020-05-31T00:00:00+00:00', '--local', '-sd', '/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/example_dags/tutorial.py']
+[2020-05-31 13:29:27,403] {logging_mixin.py:95} INFO - [2020-05-31 13:29:27,403] {sequential_executor.py:45} INFO - Executing command: ['airflow', 'run', 'tutorial', 'sleep', '2020-05-31T00:00:00+00:00', '--local', '-sd', '/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/example_dags/tutorial.py']
+[2020-05-31 13:29:28,204] {__init__.py:1133} INFO - Dependencies not met for <TaskInstance: tutorial.sleep 2020-05-31T00:00:00+00:00 [None]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_tasks_state={'total': 1, 'successes': 0, 'skipped': 0, 'failed': 0, 'upstream_failed': 0, 'done': 0}, upstream_task_ids={'print_date'}
+[2020-05-31 13:29:28,204] {logging_mixin.py:95} INFO - [2020-05-31 13:29:28,204] {jobs.py:2549} INFO - Task is not able to be run
+[2020-05-31 13:32:09,056] {logging_mixin.py:95} INFO - Sending to executor.
+[2020-05-31 13:32:09,057] {logging_mixin.py:95} INFO - [2020-05-31 13:32:09,057] {base_executor.py:59} INFO - Adding to queue: ['airflow', 'run', 'tutorial', 'sleep', '2020-05-31T00:00:00+00:00', '--local', '-sd', '/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/example_dags/tutorial.py']
+[2020-05-31 13:32:09,057] {logging_mixin.py:95} INFO - [2020-05-31 13:32:09,057] {sequential_executor.py:45} INFO - Executing command: ['airflow', 'run', 'tutorial', 'sleep', '2020-05-31T00:00:00+00:00', '--local', '-sd', '/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/example_dags/tutorial.py']
+[2020-05-31 13:32:09,858] {__init__.py:1133} INFO - Dependencies not met for <TaskInstance: tutorial.sleep 2020-05-31T00:00:00+00:00 [None]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_tasks_state={'total': 1, 'successes': 0, 'skipped': 0, 'failed': 0, 'upstream_failed': 0, 'done': 0}, upstream_task_ids={'print_date'}
+[2020-05-31 13:32:09,859] {logging_mixin.py:95} INFO - [2020-05-31 13:32:09,859] {jobs.py:2549} INFO - Task is not able to be run
+[2020-06-01 09:13:23,210] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: tutorial.sleep 2020-05-31T00:00:00+00:00 [queued]>
+[2020-06-01 09:13:23,216] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: tutorial.sleep 2020-05-31T00:00:00+00:00 [queued]>
+[2020-06-01 09:13:23,216] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-01 09:13:23,216] {__init__.py:1354} INFO - Starting attempt 1 of 2
+[2020-06-01 09:13:23,216] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-01 09:13:23,221] {__init__.py:1374} INFO - Executing <Task(BashOperator): sleep> on 2020-05-31T00:00:00+00:00
+[2020-06-01 09:13:23,221] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'tutorial', 'sleep', '2020-05-31T00:00:00+00:00', '--job_id', '23', '--raw', '-sd', '/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/example_dags/tutorial.py', '--cfg_path', '/var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T/tmp6lbm4tcr']
+[2020-06-01 09:13:23,765] {base_task_runner.py:101} INFO - Job 23: Subtask sleep [2020-06-01 09:13:23,764] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2020-06-01 09:13:23,945] {base_task_runner.py:101} INFO - Job 23: Subtask sleep [2020-06-01 09:13:23,945] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2020-06-01 09:13:23,957] {base_task_runner.py:101} INFO - Job 23: Subtask sleep [2020-06-01 09:13:23,957] {cli.py:517} INFO - Running <TaskInstance: tutorial.sleep 2020-05-31T00:00:00+00:00 [running]> on host HX3286T2.local
+[2020-06-01 09:13:23,966] {bash_operator.py:81} INFO - Tmp dir root location: 
+ /var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T
+[2020-06-01 09:13:23,967] {bash_operator.py:90} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=sleep
+AIRFLOW_CTX_EXECUTION_DATE=2020-05-31T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-05-31T00:00:00+00:00
+[2020-06-01 09:13:23,967] {bash_operator.py:104} INFO - Temporary script location: /var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T/airflowtmpqxn6s6oe/sleepdfbrlxsw
+[2020-06-01 09:13:23,967] {bash_operator.py:114} INFO - Running command: sleep 5
+[2020-06-01 09:13:23,972] {bash_operator.py:123} INFO - Output:
+[2020-06-01 09:13:28,984] {bash_operator.py:131} INFO - Command exited with return code 0
+[2020-06-01 09:13:33,214] {logging_mixin.py:95} INFO - [2020-06-01 09:13:33,214] {jobs.py:2562} INFO - Task exited with return code 0

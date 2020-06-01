@@ -1,0 +1,989 @@
+[2020-05-31 14:07:01,396] {jobs.py:398} INFO - Started process (PID=28462) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:07:01,402] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:07:01,404] {logging_mixin.py:95} INFO - [2020-05-31 14:07:01,402] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:07:01,416] {logging_mixin.py:95} INFO - [2020-05-31 14:07:01,412] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:07:01,417] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:07:01,426] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.031 seconds
+[2020-05-31 14:07:41,515] {jobs.py:398} INFO - Started process (PID=28593) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:07:41,521] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:07:41,522] {logging_mixin.py:95} INFO - [2020-05-31 14:07:41,522] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:07:41,533] {logging_mixin.py:95} INFO - [2020-05-31 14:07:41,530] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:07:41,534] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:07:41,545] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.031 seconds
+[2020-05-31 14:08:21,631] {jobs.py:398} INFO - Started process (PID=28697) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:08:21,637] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:08:21,638] {logging_mixin.py:95} INFO - [2020-05-31 14:08:21,638] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:08:21,648] {logging_mixin.py:95} INFO - [2020-05-31 14:08:21,645] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:08:21,648] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:08:21,659] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.028 seconds
+[2020-05-31 14:09:01,745] {jobs.py:398} INFO - Started process (PID=28780) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:09:01,757] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:09:01,758] {logging_mixin.py:95} INFO - [2020-05-31 14:09:01,758] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:09:01,773] {logging_mixin.py:95} INFO - [2020-05-31 14:09:01,768] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:09:01,775] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:09:01,790] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.046 seconds
+[2020-05-31 14:09:41,845] {jobs.py:398} INFO - Started process (PID=28907) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:09:41,851] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:09:41,852] {logging_mixin.py:95} INFO - [2020-05-31 14:09:41,851] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:09:41,862] {logging_mixin.py:95} INFO - [2020-05-31 14:09:41,859] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:09:41,863] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:09:41,873] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.028 seconds
+[2020-05-31 14:10:21,957] {jobs.py:398} INFO - Started process (PID=29013) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:10:21,988] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:10:21,989] {logging_mixin.py:95} INFO - [2020-05-31 14:10:21,989] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:10:22,000] {logging_mixin.py:95} INFO - [2020-05-31 14:10:21,997] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:10:22,000] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:10:22,011] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.053 seconds
+[2020-05-31 14:11:02,056] {jobs.py:398} INFO - Started process (PID=29103) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:11:02,066] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:11:02,069] {logging_mixin.py:95} INFO - [2020-05-31 14:11:02,068] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:11:02,083] {logging_mixin.py:95} INFO - [2020-05-31 14:11:02,080] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:11:02,084] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:11:02,094] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.037 seconds
+[2020-05-31 14:11:42,154] {jobs.py:398} INFO - Started process (PID=29209) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:11:42,164] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:11:42,165] {logging_mixin.py:95} INFO - [2020-05-31 14:11:42,165] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:11:42,174] {logging_mixin.py:95} INFO - [2020-05-31 14:11:42,171] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:11:42,175] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:11:42,185] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.031 seconds
+[2020-05-31 14:12:22,280] {jobs.py:398} INFO - Started process (PID=29322) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:12:22,287] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:12:22,288] {logging_mixin.py:95} INFO - [2020-05-31 14:12:22,288] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:12:22,298] {logging_mixin.py:95} INFO - [2020-05-31 14:12:22,295] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:12:22,299] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:12:22,309] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.029 seconds
+[2020-05-31 14:13:02,413] {jobs.py:398} INFO - Started process (PID=29425) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:13:02,419] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:13:02,420] {logging_mixin.py:95} INFO - [2020-05-31 14:13:02,420] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:13:02,430] {logging_mixin.py:95} INFO - [2020-05-31 14:13:02,427] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:13:02,430] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:13:02,440] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.027 seconds
+[2020-05-31 14:13:42,530] {jobs.py:398} INFO - Started process (PID=29536) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:13:42,537] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:13:42,538] {logging_mixin.py:95} INFO - [2020-05-31 14:13:42,538] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:13:42,547] {logging_mixin.py:95} INFO - [2020-05-31 14:13:42,545] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:13:42,548] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:13:42,558] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.028 seconds
+[2020-05-31 14:14:22,632] {jobs.py:398} INFO - Started process (PID=29624) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:14:22,640] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:14:22,641] {logging_mixin.py:95} INFO - [2020-05-31 14:14:22,641] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:14:22,652] {logging_mixin.py:95} INFO - [2020-05-31 14:14:22,649] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:14:22,653] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:14:22,663] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.031 seconds
+[2020-05-31 14:15:02,727] {jobs.py:398} INFO - Started process (PID=29741) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:15:02,733] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:15:02,734] {logging_mixin.py:95} INFO - [2020-05-31 14:15:02,734] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:15:02,744] {logging_mixin.py:95} INFO - [2020-05-31 14:15:02,741] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:15:02,744] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:15:02,754] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.027 seconds
+[2020-05-31 14:15:42,848] {jobs.py:398} INFO - Started process (PID=29867) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:15:42,857] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:15:42,858] {logging_mixin.py:95} INFO - [2020-05-31 14:15:42,857] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:15:42,867] {logging_mixin.py:95} INFO - [2020-05-31 14:15:42,864] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:15:42,868] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:15:42,878] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.030 seconds
+[2020-05-31 14:16:22,974] {jobs.py:398} INFO - Started process (PID=29960) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:16:22,986] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:16:22,987] {logging_mixin.py:95} INFO - [2020-05-31 14:16:22,986] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:16:23,007] {logging_mixin.py:95} INFO - [2020-05-31 14:16:23,002] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:16:23,008] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:16:23,022] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.048 seconds
+[2020-05-31 14:17:03,088] {jobs.py:398} INFO - Started process (PID=30074) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:17:03,094] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:17:03,096] {logging_mixin.py:95} INFO - [2020-05-31 14:17:03,095] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:17:03,107] {logging_mixin.py:95} INFO - [2020-05-31 14:17:03,103] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:17:03,107] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:17:03,120] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.033 seconds
+[2020-05-31 14:17:43,207] {jobs.py:398} INFO - Started process (PID=30207) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:17:43,217] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:17:43,218] {logging_mixin.py:95} INFO - [2020-05-31 14:17:43,218] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:17:43,228] {logging_mixin.py:95} INFO - [2020-05-31 14:17:43,225] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:17:43,228] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:17:43,238] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.031 seconds
+[2020-05-31 14:18:23,322] {jobs.py:398} INFO - Started process (PID=30301) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:18:23,328] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:18:23,329] {logging_mixin.py:95} INFO - [2020-05-31 14:18:23,329] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:18:23,355] {logging_mixin.py:95} INFO - [2020-05-31 14:18:23,342] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:18:23,355] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:18:23,366] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.044 seconds
+[2020-05-31 14:19:03,452] {jobs.py:398} INFO - Started process (PID=30428) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:19:03,460] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:19:03,461] {logging_mixin.py:95} INFO - [2020-05-31 14:19:03,460] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:19:03,481] {logging_mixin.py:95} INFO - [2020-05-31 14:19:03,475] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:19:03,481] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:19:03,491] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.039 seconds
+[2020-05-31 14:19:43,553] {jobs.py:398} INFO - Started process (PID=30517) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:19:43,561] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:19:43,563] {logging_mixin.py:95} INFO - [2020-05-31 14:19:43,562] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:19:43,572] {logging_mixin.py:95} INFO - [2020-05-31 14:19:43,569] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:19:43,573] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:19:43,584] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.031 seconds
+[2020-05-31 14:20:23,689] {jobs.py:398} INFO - Started process (PID=30613) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:20:23,697] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:20:23,698] {logging_mixin.py:95} INFO - [2020-05-31 14:20:23,697] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:20:23,708] {logging_mixin.py:95} INFO - [2020-05-31 14:20:23,705] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:20:23,708] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:20:23,719] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.029 seconds
+[2020-05-31 14:21:03,829] {jobs.py:398} INFO - Started process (PID=30720) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:21:03,836] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:21:03,837] {logging_mixin.py:95} INFO - [2020-05-31 14:21:03,836] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:21:03,847] {logging_mixin.py:95} INFO - [2020-05-31 14:21:03,844] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:21:03,848] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:21:03,858] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.029 seconds
+[2020-05-31 14:21:43,947] {jobs.py:398} INFO - Started process (PID=30806) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:21:43,955] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:21:43,956] {logging_mixin.py:95} INFO - [2020-05-31 14:21:43,956] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:21:43,967] {logging_mixin.py:95} INFO - [2020-05-31 14:21:43,964] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:21:43,967] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:21:43,978] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.031 seconds
+[2020-05-31 14:22:24,076] {jobs.py:398} INFO - Started process (PID=30938) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:22:24,085] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:22:24,086] {logging_mixin.py:95} INFO - [2020-05-31 14:22:24,085] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:22:24,096] {logging_mixin.py:95} INFO - [2020-05-31 14:22:24,093] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:22:24,096] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:22:24,107] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.031 seconds
+[2020-05-31 14:23:04,204] {jobs.py:398} INFO - Started process (PID=31044) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:23:04,212] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:23:04,213] {logging_mixin.py:95} INFO - [2020-05-31 14:23:04,212] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:23:04,224] {logging_mixin.py:95} INFO - [2020-05-31 14:23:04,221] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:23:04,225] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:23:04,235] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.031 seconds
+[2020-05-31 14:23:44,297] {jobs.py:398} INFO - Started process (PID=31133) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:23:44,304] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:23:44,305] {logging_mixin.py:95} INFO - [2020-05-31 14:23:44,304] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:23:44,315] {logging_mixin.py:95} INFO - [2020-05-31 14:23:44,312] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:23:44,316] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:23:44,326] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.029 seconds
+[2020-05-31 14:24:24,404] {jobs.py:398} INFO - Started process (PID=31257) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:24:24,411] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:24:24,412] {logging_mixin.py:95} INFO - [2020-05-31 14:24:24,411] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:24:24,421] {logging_mixin.py:95} INFO - [2020-05-31 14:24:24,418] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:24:24,422] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:24:24,433] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.029 seconds
+[2020-05-31 14:25:04,511] {jobs.py:398} INFO - Started process (PID=31361) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:25:04,518] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:25:04,519] {logging_mixin.py:95} INFO - [2020-05-31 14:25:04,519] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:25:04,529] {logging_mixin.py:95} INFO - [2020-05-31 14:25:04,526] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:25:04,529] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:25:04,539] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.028 seconds
+[2020-05-31 14:25:44,618] {jobs.py:398} INFO - Started process (PID=32207) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:25:44,624] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:25:44,625] {logging_mixin.py:95} INFO - [2020-05-31 14:25:44,624] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:25:44,636] {logging_mixin.py:95} INFO - [2020-05-31 14:25:44,633] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:25:44,637] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:25:44,646] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.029 seconds
+[2020-05-31 14:26:24,719] {jobs.py:398} INFO - Started process (PID=32349) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:26:24,725] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:26:24,726] {logging_mixin.py:95} INFO - [2020-05-31 14:26:24,726] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:26:24,736] {logging_mixin.py:95} INFO - [2020-05-31 14:26:24,733] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:26:24,736] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:26:24,748] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.029 seconds
+[2020-05-31 14:27:04,795] {jobs.py:398} INFO - Started process (PID=32449) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:27:04,801] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:27:04,802] {logging_mixin.py:95} INFO - [2020-05-31 14:27:04,801] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:27:04,812] {logging_mixin.py:95} INFO - [2020-05-31 14:27:04,809] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:27:04,812] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:27:04,821] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.026 seconds
+[2020-05-31 14:27:44,892] {jobs.py:398} INFO - Started process (PID=32589) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:27:44,899] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:27:44,900] {logging_mixin.py:95} INFO - [2020-05-31 14:27:44,900] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:27:44,911] {logging_mixin.py:95} INFO - [2020-05-31 14:27:44,908] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:27:44,912] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:27:44,923] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.031 seconds
+[2020-05-31 14:28:24,991] {jobs.py:398} INFO - Started process (PID=32693) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:28:24,999] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:28:25,000] {logging_mixin.py:95} INFO - [2020-05-31 14:28:25,000] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:28:25,021] {logging_mixin.py:95} INFO - [2020-05-31 14:28:25,012] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:28:25,023] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:28:25,034] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.043 seconds
+[2020-05-31 14:29:05,093] {jobs.py:398} INFO - Started process (PID=32784) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:29:05,103] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:29:05,104] {logging_mixin.py:95} INFO - [2020-05-31 14:29:05,103] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:29:05,124] {logging_mixin.py:95} INFO - [2020-05-31 14:29:05,117] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:29:05,125] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:29:05,135] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.042 seconds
+[2020-05-31 14:29:45,189] {jobs.py:398} INFO - Started process (PID=32889) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:29:45,197] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:29:45,199] {logging_mixin.py:95} INFO - [2020-05-31 14:29:45,198] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:29:45,210] {logging_mixin.py:95} INFO - [2020-05-31 14:29:45,207] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:29:45,211] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:29:45,222] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.033 seconds
+[2020-05-31 14:31:09,356] {jobs.py:398} INFO - Started process (PID=33445) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:31:09,365] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:31:09,366] {logging_mixin.py:95} INFO - [2020-05-31 14:31:09,366] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:31:09,376] {logging_mixin.py:95} INFO - [2020-05-31 14:31:09,373] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:31:09,377] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:31:09,387] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.031 seconds
+[2020-05-31 14:31:49,465] {jobs.py:398} INFO - Started process (PID=33554) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:31:49,473] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:31:49,474] {logging_mixin.py:95} INFO - [2020-05-31 14:31:49,474] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:31:49,483] {logging_mixin.py:95} INFO - [2020-05-31 14:31:49,480] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:31:49,483] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:31:49,493] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.028 seconds
+[2020-05-31 14:32:29,571] {jobs.py:398} INFO - Started process (PID=33694) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:32:29,581] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:32:29,582] {logging_mixin.py:95} INFO - [2020-05-31 14:32:29,581] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:32:29,595] {logging_mixin.py:95} INFO - [2020-05-31 14:32:29,592] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:32:29,596] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:32:29,606] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.035 seconds
+[2020-05-31 14:33:09,684] {jobs.py:398} INFO - Started process (PID=33784) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:33:09,693] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:33:09,694] {logging_mixin.py:95} INFO - [2020-05-31 14:33:09,693] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:33:09,711] {logging_mixin.py:95} INFO - [2020-05-31 14:33:09,705] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:33:09,711] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:33:09,722] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.039 seconds
+[2020-05-31 14:33:49,805] {jobs.py:398} INFO - Started process (PID=33891) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:33:49,816] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:33:49,820] {logging_mixin.py:95} INFO - [2020-05-31 14:33:49,818] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:33:49,836] {logging_mixin.py:95} INFO - [2020-05-31 14:33:49,830] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:33:49,837] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:33:49,854] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.049 seconds
+[2020-05-31 14:35:11,121] {jobs.py:398} INFO - Started process (PID=34085) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:35:11,140] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:35:11,143] {logging_mixin.py:95} INFO - [2020-05-31 14:35:11,142] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:35:11,162] {logging_mixin.py:95} INFO - [2020-05-31 14:35:11,157] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 3, in <module>
+    from airflow.contrib.operators.bigquery_operator import BigQueryOperator
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 22, in <module>
+    from airflow.contrib.hooks.bigquery_hook import BigQueryHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 34, in <module>
+    from airflow.contrib.hooks.gcp_api_base_hook import GoogleCloudBaseHook
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/gcp_api_base_hook.py", line 23, in <module>
+    import httplib2
+ModuleNotFoundError: No module named 'httplib2'
+[2020-05-31 14:35:11,163] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:35:11,174] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.053 seconds
+[2020-05-31 14:35:51,233] {jobs.py:398} INFO - Started process (PID=34211) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:35:51,240] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-05-31 14:35:51,241] {logging_mixin.py:95} INFO - [2020-05-31 14:35:51,240] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:35:51,242] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-05-31 14:35:51,242] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.009 seconds

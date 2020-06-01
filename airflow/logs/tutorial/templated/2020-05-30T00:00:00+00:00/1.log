@@ -1,0 +1,60 @@
+[2020-05-31 13:36:47,488] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: tutorial.templated 2020-05-30T00:00:00+00:00 [queued]>
+[2020-05-31 13:36:47,494] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: tutorial.templated 2020-05-30T00:00:00+00:00 [queued]>
+[2020-05-31 13:36:47,494] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2020-05-31 13:36:47,494] {__init__.py:1354} INFO - Starting attempt 1 of 2
+[2020-05-31 13:36:47,494] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2020-05-31 13:36:47,500] {__init__.py:1374} INFO - Executing <Task(BashOperator): templated> on 2020-05-30T00:00:00+00:00
+[2020-05-31 13:36:47,501] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'tutorial', 'templated', '2020-05-30T00:00:00+00:00', '--job_id', '14', '--raw', '-sd', '/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/example_dags/tutorial.py', '--cfg_path', '/var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T/tmp9e7jzjik']
+[2020-05-31 13:36:48,140] {base_task_runner.py:101} INFO - Job 14: Subtask templated [2020-05-31 13:36:48,140] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2020-05-31 13:36:48,338] {base_task_runner.py:101} INFO - Job 14: Subtask templated [2020-05-31 13:36:48,338] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2020-05-31 13:36:48,351] {base_task_runner.py:101} INFO - Job 14: Subtask templated [2020-05-31 13:36:48,351] {cli.py:517} INFO - Running <TaskInstance: tutorial.templated 2020-05-30T00:00:00+00:00 [running]> on host HX3286T2.local
+[2020-05-31 13:36:48,366] {bash_operator.py:81} INFO - Tmp dir root location: 
+ /var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T
+[2020-05-31 13:36:48,366] {bash_operator.py:90} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=templated
+AIRFLOW_CTX_EXECUTION_DATE=2020-05-30T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=backfill_2020-05-30T00:00:00+00:00
+[2020-05-31 13:36:48,366] {bash_operator.py:104} INFO - Temporary script location: /var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T/airflowtmp84macv0o/templated6iwu_yq1
+[2020-05-31 13:36:48,366] {bash_operator.py:114} INFO - Running command: 
+
+    echo "2020-05-30"
+    echo "2020-06-06"
+    echo "Parameter I passed in"
+
+    echo "2020-05-30"
+    echo "2020-06-06"
+    echo "Parameter I passed in"
+
+    echo "2020-05-30"
+    echo "2020-06-06"
+    echo "Parameter I passed in"
+
+    echo "2020-05-30"
+    echo "2020-06-06"
+    echo "Parameter I passed in"
+
+    echo "2020-05-30"
+    echo "2020-06-06"
+    echo "Parameter I passed in"
+
+[2020-05-31 13:36:48,372] {bash_operator.py:123} INFO - Output:
+[2020-05-31 13:36:48,380] {bash_operator.py:127} INFO - 2020-05-30
+[2020-05-31 13:36:48,380] {bash_operator.py:127} INFO - 2020-06-06
+[2020-05-31 13:36:48,380] {bash_operator.py:127} INFO - Parameter I passed in
+[2020-05-31 13:36:48,380] {bash_operator.py:127} INFO - 2020-05-30
+[2020-05-31 13:36:48,380] {bash_operator.py:127} INFO - 2020-06-06
+[2020-05-31 13:36:48,380] {bash_operator.py:127} INFO - Parameter I passed in
+[2020-05-31 13:36:48,380] {bash_operator.py:127} INFO - 2020-05-30
+[2020-05-31 13:36:48,380] {bash_operator.py:127} INFO - 2020-06-06
+[2020-05-31 13:36:48,380] {bash_operator.py:127} INFO - Parameter I passed in
+[2020-05-31 13:36:48,380] {bash_operator.py:127} INFO - 2020-05-30
+[2020-05-31 13:36:48,380] {bash_operator.py:127} INFO - 2020-06-06
+[2020-05-31 13:36:48,380] {bash_operator.py:127} INFO - Parameter I passed in
+[2020-05-31 13:36:48,380] {bash_operator.py:127} INFO - 2020-05-30
+[2020-05-31 13:36:48,380] {bash_operator.py:127} INFO - 2020-06-06
+[2020-05-31 13:36:48,381] {bash_operator.py:127} INFO - Parameter I passed in
+[2020-05-31 13:36:48,381] {bash_operator.py:131} INFO - Command exited with return code 0
+[2020-05-31 13:36:52,485] {logging_mixin.py:95} INFO - [2020-05-31 13:36:52,484] {jobs.py:2562} INFO - Task exited with return code 0
