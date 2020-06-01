@@ -2805,3 +2805,367 @@ IndentationError: unexpected indent
   category=DeprecationWarning)
 [2020-06-01 15:16:09,638] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
 [2020-06-01 15:16:09,651] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.386 seconds
+[2020-06-01 15:17:36,142] {jobs.py:398} INFO - Started process (PID=58650) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:17:36,149] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:17:36,150] {logging_mixin.py:95} INFO - [2020-06-01 15:17:36,150] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:17:36,499] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:17:36,501] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:17:36,514] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.372 seconds
+[2020-06-01 15:18:22,298] {jobs.py:398} INFO - Started process (PID=58759) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:18:22,304] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:18:22,305] {logging_mixin.py:95} INFO - [2020-06-01 15:18:22,305] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:18:22,675] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:18:22,676] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:18:22,690] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.391 seconds
+[2020-06-01 15:19:08,462] {jobs.py:398} INFO - Started process (PID=58882) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:19:08,469] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:19:08,470] {logging_mixin.py:95} INFO - [2020-06-01 15:19:08,470] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:19:08,816] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:19:08,818] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:19:08,832] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.370 seconds
+[2020-06-01 15:19:54,607] {jobs.py:398} INFO - Started process (PID=58999) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:19:54,614] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:19:54,615] {logging_mixin.py:95} INFO - [2020-06-01 15:19:54,614] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:19:54,957] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:19:54,959] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:19:54,973] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.366 seconds
+[2020-06-01 15:21:16,889] {jobs.py:398} INFO - Started process (PID=59261) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:21:16,897] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:21:16,898] {logging_mixin.py:95} INFO - [2020-06-01 15:21:16,898] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:21:17,243] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:21:17,244] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:21:17,256] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.367 seconds
+[2020-06-01 15:22:03,025] {jobs.py:398} INFO - Started process (PID=59385) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:22:03,032] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:22:03,033] {logging_mixin.py:95} INFO - [2020-06-01 15:22:03,033] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:22:03,358] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:22:03,360] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:22:03,373] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.348 seconds
+[2020-06-01 15:22:49,139] {jobs.py:398} INFO - Started process (PID=59507) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:22:49,147] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:22:49,148] {logging_mixin.py:95} INFO - [2020-06-01 15:22:49,147] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:22:49,485] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:22:49,486] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:22:49,498] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.359 seconds
+[2020-06-01 15:23:35,291] {jobs.py:398} INFO - Started process (PID=59611) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:23:35,298] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:23:35,299] {logging_mixin.py:95} INFO - [2020-06-01 15:23:35,299] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:23:35,655] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:23:35,658] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:23:35,671] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.379 seconds
+[2020-06-01 15:24:21,423] {jobs.py:398} INFO - Started process (PID=59742) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:24:21,430] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:24:21,431] {logging_mixin.py:95} INFO - [2020-06-01 15:24:21,431] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:24:21,867] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:24:21,869] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:24:21,881] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.458 seconds
+[2020-06-01 15:25:07,553] {jobs.py:398} INFO - Started process (PID=59867) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:25:07,565] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:25:07,566] {logging_mixin.py:95} INFO - [2020-06-01 15:25:07,566] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:25:07,947] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:25:07,949] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:25:07,961] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.408 seconds
+[2020-06-01 15:25:53,676] {jobs.py:398} INFO - Started process (PID=60020) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:25:53,702] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:25:53,707] {logging_mixin.py:95} INFO - [2020-06-01 15:25:53,707] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:25:54,060] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:25:54,062] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:25:54,073] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.397 seconds
+[2020-06-01 15:26:45,938] {jobs.py:398} INFO - Started process (PID=60131) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:26:45,946] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:26:45,947] {logging_mixin.py:95} INFO - [2020-06-01 15:26:45,947] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:26:46,336] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:26:46,338] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:26:46,350] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.412 seconds
+[2020-06-01 15:27:32,053] {jobs.py:398} INFO - Started process (PID=60253) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:27:32,060] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:27:32,061] {logging_mixin.py:95} INFO - [2020-06-01 15:27:32,061] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:27:32,404] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:27:32,406] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:27:32,419] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.366 seconds
+[2020-06-01 15:28:18,186] {jobs.py:398} INFO - Started process (PID=60368) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:28:18,193] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:28:18,194] {logging_mixin.py:95} INFO - [2020-06-01 15:28:18,194] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:28:18,570] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:28:18,572] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:28:18,585] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.399 seconds
+[2020-06-01 15:29:04,318] {jobs.py:398} INFO - Started process (PID=60484) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:29:04,328] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:29:04,329] {logging_mixin.py:95} INFO - [2020-06-01 15:29:04,328] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:29:04,651] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:29:04,653] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:29:04,664] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.346 seconds
+[2020-06-01 15:29:56,764] {jobs.py:398} INFO - Started process (PID=60600) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:29:56,772] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:29:56,773] {logging_mixin.py:95} INFO - [2020-06-01 15:29:56,772] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:29:57,099] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:29:57,101] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:29:57,112] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.348 seconds
+[2020-06-01 15:30:42,904] {jobs.py:398} INFO - Started process (PID=60744) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:30:42,911] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:30:42,912] {logging_mixin.py:95} INFO - [2020-06-01 15:30:42,911] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:30:43,242] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:30:43,244] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:30:43,256] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.352 seconds
+[2020-06-01 15:31:29,015] {jobs.py:398} INFO - Started process (PID=60869) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:31:29,022] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:31:29,023] {logging_mixin.py:95} INFO - [2020-06-01 15:31:29,022] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:31:29,392] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:31:29,395] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:31:29,413] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.397 seconds
+[2020-06-01 15:32:15,153] {jobs.py:398} INFO - Started process (PID=60989) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:32:15,160] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:32:15,161] {logging_mixin.py:95} INFO - [2020-06-01 15:32:15,161] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:32:15,538] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:32:15,541] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:32:15,552] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.399 seconds
+[2020-06-01 15:33:01,286] {jobs.py:398} INFO - Started process (PID=61099) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:33:01,295] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:33:01,296] {logging_mixin.py:95} INFO - [2020-06-01 15:33:01,296] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:33:01,656] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:33:01,658] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:33:01,669] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.383 seconds
+[2020-06-01 15:33:58,374] {jobs.py:398} INFO - Started process (PID=61235) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:33:58,382] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:33:58,382] {logging_mixin.py:95} INFO - [2020-06-01 15:33:58,382] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:33:58,702] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:33:58,704] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:33:58,715] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.341 seconds
+[2020-06-01 15:34:44,507] {jobs.py:398} INFO - Started process (PID=61389) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:34:44,513] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:34:44,514] {logging_mixin.py:95} INFO - [2020-06-01 15:34:44,514] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:34:44,834] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:34:44,836] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:34:44,847] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.340 seconds
+[2020-06-01 15:35:30,652] {jobs.py:398} INFO - Started process (PID=61532) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:35:30,658] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:35:30,659] {logging_mixin.py:95} INFO - [2020-06-01 15:35:30,659] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:35:30,985] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:35:30,987] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:35:30,998] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.346 seconds
+[2020-06-01 15:36:16,820] {jobs.py:398} INFO - Started process (PID=61633) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:36:16,827] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:36:16,828] {logging_mixin.py:95} INFO - [2020-06-01 15:36:16,828] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:36:17,168] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:36:17,170] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:36:17,182] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.362 seconds
+[2020-06-01 15:37:02,963] {jobs.py:398} INFO - Started process (PID=61749) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:37:02,971] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:37:02,972] {logging_mixin.py:95} INFO - [2020-06-01 15:37:02,972] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:37:03,294] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:37:03,296] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:37:03,308] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.345 seconds
+[2020-06-01 15:37:49,124] {jobs.py:398} INFO - Started process (PID=61863) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:37:49,131] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:37:49,132] {logging_mixin.py:95} INFO - [2020-06-01 15:37:49,132] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:37:49,456] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:37:49,458] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:37:49,469] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.345 seconds
+[2020-06-01 15:38:35,311] {jobs.py:398} INFO - Started process (PID=61987) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:38:35,319] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:38:35,320] {logging_mixin.py:95} INFO - [2020-06-01 15:38:35,319] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:38:35,642] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:38:35,644] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:38:35,655] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.344 seconds
+[2020-06-01 15:39:21,594] {jobs.py:398} INFO - Started process (PID=62100) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:39:21,601] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:39:21,602] {logging_mixin.py:95} INFO - [2020-06-01 15:39:21,602] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:39:21,956] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:39:21,958] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:39:21,970] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.376 seconds
+[2020-06-01 15:40:07,901] {jobs.py:398} INFO - Started process (PID=62229) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:40:07,908] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:40:07,909] {logging_mixin.py:95} INFO - [2020-06-01 15:40:07,908] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:40:08,240] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:40:08,242] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:40:08,252] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.351 seconds
+[2020-06-01 15:40:54,177] {jobs.py:398} INFO - Started process (PID=62361) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:40:54,185] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:40:54,186] {logging_mixin.py:95} INFO - [2020-06-01 15:40:54,186] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:40:54,508] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:40:54,510] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:40:54,522] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.345 seconds
+[2020-06-01 15:41:40,501] {jobs.py:398} INFO - Started process (PID=62499) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:41:40,532] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:41:40,533] {logging_mixin.py:95} INFO - [2020-06-01 15:41:40,533] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:41:40,879] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:41:40,881] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:41:40,893] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.391 seconds
+[2020-06-01 15:42:26,812] {jobs.py:398} INFO - Started process (PID=62597) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:42:26,819] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:42:26,820] {logging_mixin.py:95} INFO - [2020-06-01 15:42:26,820] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:42:27,162] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:42:27,164] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:42:27,174] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.362 seconds
+[2020-06-01 15:43:13,086] {jobs.py:398} INFO - Started process (PID=62712) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:43:13,093] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:43:13,094] {logging_mixin.py:95} INFO - [2020-06-01 15:43:13,094] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:43:13,416] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:43:13,417] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:43:13,429] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.343 seconds
+[2020-06-01 15:43:59,372] {jobs.py:398} INFO - Started process (PID=62833) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:43:59,378] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:43:59,379] {logging_mixin.py:95} INFO - [2020-06-01 15:43:59,379] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:43:59,708] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:43:59,709] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:43:59,720] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.348 seconds
+[2020-06-01 15:44:45,665] {jobs.py:398} INFO - Started process (PID=62931) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:44:45,672] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:44:45,673] {logging_mixin.py:95} INFO - [2020-06-01 15:44:45,673] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:44:46,000] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:44:46,001] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:44:46,011] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.347 seconds
+[2020-06-01 15:45:31,936] {jobs.py:398} INFO - Started process (PID=63073) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:45:31,944] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:45:31,945] {logging_mixin.py:95} INFO - [2020-06-01 15:45:31,945] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:45:32,266] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:45:32,268] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:45:32,278] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.341 seconds
+[2020-06-01 15:46:18,236] {jobs.py:398} INFO - Started process (PID=63192) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:46:18,244] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:46:18,245] {logging_mixin.py:95} INFO - [2020-06-01 15:46:18,244] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:46:18,563] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:46:18,564] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:46:18,575] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.338 seconds
+[2020-06-01 15:47:04,517] {jobs.py:398} INFO - Started process (PID=63306) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:47:04,524] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:47:04,525] {logging_mixin.py:95} INFO - [2020-06-01 15:47:04,524] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:47:04,851] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:47:04,853] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:47:04,863] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.346 seconds
+[2020-06-01 15:47:50,809] {jobs.py:398} INFO - Started process (PID=63403) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:47:50,814] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:47:50,815] {logging_mixin.py:95} INFO - [2020-06-01 15:47:50,814] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:47:51,177] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:47:51,179] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:47:51,192] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.383 seconds
+[2020-06-01 15:48:37,094] {jobs.py:398} INFO - Started process (PID=63523) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:48:37,101] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:48:37,102] {logging_mixin.py:95} INFO - [2020-06-01 15:48:37,102] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:48:37,433] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:48:37,435] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:48:37,444] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.350 seconds
+[2020-06-01 15:49:23,419] {jobs.py:398} INFO - Started process (PID=63637) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:49:23,428] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:49:23,428] {logging_mixin.py:95} INFO - [2020-06-01 15:49:23,428] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:49:23,750] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:49:23,751] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:49:23,764] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.345 seconds
+[2020-06-01 15:50:09,711] {jobs.py:398} INFO - Started process (PID=63746) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:50:09,718] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:50:09,719] {logging_mixin.py:95} INFO - [2020-06-01 15:50:09,719] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:50:10,057] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:50:10,058] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:50:10,069] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.358 seconds
+[2020-06-01 15:50:56,007] {jobs.py:398} INFO - Started process (PID=63878) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:50:56,013] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:50:56,014] {logging_mixin.py:95} INFO - [2020-06-01 15:50:56,014] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:50:56,331] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:50:56,332] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:50:56,342] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.335 seconds
+[2020-06-01 15:51:42,319] {jobs.py:398} INFO - Started process (PID=63993) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:51:42,326] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:51:42,327] {logging_mixin.py:95} INFO - [2020-06-01 15:51:42,326] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:51:42,648] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:51:42,650] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:51:42,660] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.341 seconds
+[2020-06-01 15:52:28,588] {jobs.py:398} INFO - Started process (PID=64910) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:52:28,596] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:52:28,597] {logging_mixin.py:95} INFO - [2020-06-01 15:52:28,597] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:52:28,921] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:52:28,923] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:52:28,935] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.346 seconds
+[2020-06-01 15:53:14,873] {jobs.py:398} INFO - Started process (PID=65020) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:53:14,879] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:53:14,880] {logging_mixin.py:95} INFO - [2020-06-01 15:53:14,880] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:53:15,225] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:53:15,226] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:53:15,235] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.363 seconds
+[2020-06-01 15:54:01,156] {jobs.py:398} INFO - Started process (PID=65149) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:54:01,162] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:54:01,163] {logging_mixin.py:95} INFO - [2020-06-01 15:54:01,162] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:54:01,500] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:54:01,502] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:54:01,512] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.356 seconds
+[2020-06-01 15:54:47,449] {jobs.py:398} INFO - Started process (PID=65281) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:54:47,455] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:54:47,456] {logging_mixin.py:95} INFO - [2020-06-01 15:54:47,455] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:54:47,780] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:54:47,782] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:54:47,795] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.346 seconds
+[2020-06-01 15:55:33,718] {jobs.py:398} INFO - Started process (PID=65405) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:55:33,724] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:55:33,725] {logging_mixin.py:95} INFO - [2020-06-01 15:55:33,725] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:55:34,048] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:55:34,050] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:55:34,060] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.342 seconds
+[2020-06-01 15:56:20,012] {jobs.py:398} INFO - Started process (PID=65525) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:56:20,020] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:56:20,021] {logging_mixin.py:95} INFO - [2020-06-01 15:56:20,020] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:56:20,348] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:56:20,349] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:56:20,362] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.351 seconds
+[2020-06-01 15:57:06,239] {jobs.py:398} INFO - Started process (PID=65639) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:57:06,247] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:57:06,248] {logging_mixin.py:95} INFO - [2020-06-01 15:57:06,248] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:57:06,590] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:57:06,592] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:57:06,602] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.364 seconds
+[2020-06-01 15:57:52,379] {jobs.py:398} INFO - Started process (PID=65757) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:57:52,385] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py for tasks to queue
+[2020-06-01 15:57:52,386] {logging_mixin.py:95} INFO - [2020-06-01 15:57:52,386] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:57:52,716] {logging_mixin.py:95} WARNING - /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py:176: DeprecationWarning: Deprecated parameter `bql` used in Task id: bq_write_to_test. Use `sql` parameter instead to pass the sql to be executed. `bql` parameter is deprecated and will be removed in a future version of Airflow.
+  category=DeprecationWarning)
+[2020-06-01 15:57:52,717] {jobs.py:1723} INFO - DAG(s) dict_keys(['bq_data']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py
+[2020-06-01 15:57:52,728] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/bq_data.py took 0.348 seconds

@@ -43,7 +43,7 @@ t2 = BigQueryOperator(
             select date, 
     sum(total_confirmed_cases) as total_confirmed_cases
     from bigquery-public-data.covid19_italy.data_by_region
-    where DATE(date) = DATE_SUB('{{ ds }}', INTERVAL 1 DAY))
+    where DATE(date) = '{{ ds }}'
     group by date
     ''',
     destination_dataset_table='sandbox-278915:airflow.covid_italy_daily_cases',

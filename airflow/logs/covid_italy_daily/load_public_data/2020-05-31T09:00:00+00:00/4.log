@@ -1,0 +1,91 @@
+[2020-06-01 15:29:28,161] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: covid_italy_daily.load_public_data 2020-05-31T09:00:00+00:00 [queued]>
+[2020-06-01 15:29:28,168] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: covid_italy_daily.load_public_data 2020-05-31T09:00:00+00:00 [queued]>
+[2020-06-01 15:29:28,168] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-01 15:29:28,168] {__init__.py:1354} INFO - Starting attempt 4 of 4
+[2020-06-01 15:29:28,168] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-01 15:29:28,174] {__init__.py:1374} INFO - Executing <Task(BigQueryOperator): load_public_data> on 2020-05-31T09:00:00+00:00
+[2020-06-01 15:29:28,174] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'covid_italy_daily', 'load_public_data', '2020-05-31T09:00:00+00:00', '--job_id', '41', '--raw', '-sd', 'DAGS_FOLDER/covid_italy_daily.py', '--cfg_path', '/var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T/tmpgc50ea12']
+[2020-06-01 15:29:28,779] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data [2020-06-01 15:29:28,778] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2020-06-01 15:29:29,000] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data [2020-06-01 15:29:29,000] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:29:29,315] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data [2020-06-01 15:29:29,315] {cli.py:517} INFO - Running <TaskInstance: covid_italy_daily.load_public_data 2020-05-31T09:00:00+00:00 [running]> on host HX3286T2.local
+[2020-06-01 15:29:29,333] {bigquery_operator.py:184} INFO - Executing: 
+    #standardSQL
+            select date, 
+    sum(total_confirmed_cases) as total_confirmed_cases
+    from bigquery-public-data.covid19_italy.data_by_region
+    where DATE(date) = DATE_SUB('2020-05-31', INTERVAL 1 DAY))
+    group by date
+    
+[2020-06-01 15:29:30,290] {__init__.py:1580} ERROR - BigQuery job failed. Final error was: {'reason': 'invalidQuery', 'location': 'query', 'message': 'Syntax error: Unexpected ")" at [6:62]'}. The job was: {'kind': 'bigquery#job', 'etag': 'oi2ul1kRxlaBRRFkxvPA3w==', 'id': 'sandbox-278915:US.job_8PX-StwM-liXD4F-XTdk8n-5gpyF', 'selfLink': 'https://bigquery.googleapis.com/bigquery/v2/projects/sandbox-278915/jobs/job_8PX-StwM-liXD4F-XTdk8n-5gpyF?location=US', 'user_email': 'airflow-sandbox@sandbox-278915.iam.gserviceaccount.com', 'configuration': {'query': {'query': "\n    #standardSQL\n            select date, \n    sum(total_confirmed_cases) as total_confirmed_cases\n    from bigquery-public-data.covid19_italy.data_by_region\n    where DATE(date) = DATE_SUB('2020-05-31', INTERVAL 1 DAY))\n    group by date\n    ", 'destinationTable': {'projectId': 'sandbox-278915', 'datasetId': 'airflow', 'tableId': 'covid_italy_daily_cases'}, 'createDisposition': 'CREATE_IF_NEEDED', 'writeDisposition': 'WRITE_TRUNCATE', 'priority': 'INTERACTIVE', 'allowLargeResults': True, 'useLegacySql': False, 'timePartitioning': {'type': 'DAY'}}, 'jobType': 'QUERY'}, 'jobReference': {'projectId': 'sandbox-278915', 'jobId': 'job_8PX-StwM-liXD4F-XTdk8n-5gpyF', 'location': 'US'}, 'statistics': {'creationTime': '1591021769942', 'startTime': '1591021769951', 'endTime': '1591021769951'}, 'status': {'errorResult': {'reason': 'invalidQuery', 'location': 'query', 'message': 'Syntax error: Unexpected ")" at [6:62]'}, 'errors': [{'reason': 'invalidQuery', 'location': 'query', 'message': 'Syntax error: Unexpected ")" at [6:62]'}], 'state': 'DONE'}}
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 209, in execute
+    cluster_fields=self.cluster_fields,
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 849, in run_query
+    return self.run_with_configuration(configuration)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 1248, in run_with_configuration
+    format(job['status']['errorResult'], job))
+Exception: BigQuery job failed. Final error was: {'reason': 'invalidQuery', 'location': 'query', 'message': 'Syntax error: Unexpected ")" at [6:62]'}. The job was: {'kind': 'bigquery#job', 'etag': 'oi2ul1kRxlaBRRFkxvPA3w==', 'id': 'sandbox-278915:US.job_8PX-StwM-liXD4F-XTdk8n-5gpyF', 'selfLink': 'https://bigquery.googleapis.com/bigquery/v2/projects/sandbox-278915/jobs/job_8PX-StwM-liXD4F-XTdk8n-5gpyF?location=US', 'user_email': 'airflow-sandbox@sandbox-278915.iam.gserviceaccount.com', 'configuration': {'query': {'query': "\n    #standardSQL\n            select date, \n    sum(total_confirmed_cases) as total_confirmed_cases\n    from bigquery-public-data.covid19_italy.data_by_region\n    where DATE(date) = DATE_SUB('2020-05-31', INTERVAL 1 DAY))\n    group by date\n    ", 'destinationTable': {'projectId': 'sandbox-278915', 'datasetId': 'airflow', 'tableId': 'covid_italy_daily_cases'}, 'createDisposition': 'CREATE_IF_NEEDED', 'writeDisposition': 'WRITE_TRUNCATE', 'priority': 'INTERACTIVE', 'allowLargeResults': True, 'useLegacySql': False, 'timePartitioning': {'type': 'DAY'}}, 'jobType': 'QUERY'}, 'jobReference': {'projectId': 'sandbox-278915', 'jobId': 'job_8PX-StwM-liXD4F-XTdk8n-5gpyF', 'location': 'US'}, 'statistics': {'creationTime': '1591021769942', 'startTime': '1591021769951', 'endTime': '1591021769951'}, 'status': {'errorResult': {'reason': 'invalidQuery', 'location': 'query', 'message': 'Syntax error: Unexpected ")" at [6:62]'}, 'errors': [{'reason': 'invalidQuery', 'location': 'query', 'message': 'Syntax error: Unexpected ")" at [6:62]'}], 'state': 'DONE'}}
+[2020-06-01 15:29:30,300] {__init__.py:1609} INFO - All retries failed; marking task as FAILED
+[2020-06-01 15:29:30,310] {logging_mixin.py:95} INFO - [2020-06-01 15:29:30,310] {configuration.py:287} WARNING - section/key [smtp/smtp_user] not found in config
+[2020-06-01 15:29:30,311] {__init__.py:1615} ERROR - Failed to send email to: ['rebeccavickeryds@gmail.com']
+[2020-06-01 15:29:30,312] {__init__.py:1616} ERROR - [Errno 61] Connection refused
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 209, in execute
+    cluster_fields=self.cluster_fields,
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 849, in run_query
+    return self.run_with_configuration(configuration)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 1248, in run_with_configuration
+    format(job['status']['errorResult'], job))
+Exception: BigQuery job failed. Final error was: {'reason': 'invalidQuery', 'location': 'query', 'message': 'Syntax error: Unexpected ")" at [6:62]'}. The job was: {'kind': 'bigquery#job', 'etag': 'oi2ul1kRxlaBRRFkxvPA3w==', 'id': 'sandbox-278915:US.job_8PX-StwM-liXD4F-XTdk8n-5gpyF', 'selfLink': 'https://bigquery.googleapis.com/bigquery/v2/projects/sandbox-278915/jobs/job_8PX-StwM-liXD4F-XTdk8n-5gpyF?location=US', 'user_email': 'airflow-sandbox@sandbox-278915.iam.gserviceaccount.com', 'configuration': {'query': {'query': "\n    #standardSQL\n            select date, \n    sum(total_confirmed_cases) as total_confirmed_cases\n    from bigquery-public-data.covid19_italy.data_by_region\n    where DATE(date) = DATE_SUB('2020-05-31', INTERVAL 1 DAY))\n    group by date\n    ", 'destinationTable': {'projectId': 'sandbox-278915', 'datasetId': 'airflow', 'tableId': 'covid_italy_daily_cases'}, 'createDisposition': 'CREATE_IF_NEEDED', 'writeDisposition': 'WRITE_TRUNCATE', 'priority': 'INTERACTIVE', 'allowLargeResults': True, 'useLegacySql': False, 'timePartitioning': {'type': 'DAY'}}, 'jobType': 'QUERY'}, 'jobReference': {'projectId': 'sandbox-278915', 'jobId': 'job_8PX-StwM-liXD4F-XTdk8n-5gpyF', 'location': 'US'}, 'statistics': {'creationTime': '1591021769942', 'startTime': '1591021769951', 'endTime': '1591021769951'}, 'status': {'errorResult': {'reason': 'invalidQuery', 'location': 'query', 'message': 'Syntax error: Unexpected ")" at [6:62]'}, 'errors': [{'reason': 'invalidQuery', 'location': 'query', 'message': 'Syntax error: Unexpected ")" at [6:62]'}], 'state': 'DONE'}}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 1613, in handle_failure
+    self.email_alert(error)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 1829, in email_alert
+    send_email(self.task.email, subject, html_content)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/utils/email.py", line 55, in send_email
+    mime_subtype=mime_subtype, mime_charset=mime_charset, **kwargs)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/utils/email.py", line 101, in send_email_smtp
+    send_MIME_email(smtp_mail_from, recipients, msg, dryrun)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/utils/email.py", line 121, in send_MIME_email
+    s = smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT) if SMTP_SSL else smtplib.SMTP(SMTP_HOST, SMTP_PORT)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 727, in create_connection
+    raise err
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py", line 716, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+[2020-06-01 15:29:30,326] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data Traceback (most recent call last):
+[2020-06-01 15:29:30,326] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/bin/airflow", line 32, in <module>
+[2020-06-01 15:29:30,326] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data     args.func(args)
+[2020-06-01 15:29:30,326] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/utils/cli.py", line 74, in wrapper
+[2020-06-01 15:29:30,326] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data     return f(*args, **kwargs)
+[2020-06-01 15:29:30,326] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/bin/cli.py", line 523, in run
+[2020-06-01 15:29:30,326] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data     _run(args, dag, ti)
+[2020-06-01 15:29:30,326] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/bin/cli.py", line 442, in _run
+[2020-06-01 15:29:30,326] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data     pool=args.pool,
+[2020-06-01 15:29:30,326] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/utils/db.py", line 73, in wrapper
+[2020-06-01 15:29:30,326] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data     return func(*args, **kwargs)
+[2020-06-01 15:29:30,326] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 1441, in _run_raw_task
+[2020-06-01 15:29:30,326] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data     result = task_copy.execute(context=context)
+[2020-06-01 15:29:30,326] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/operators/bigquery_operator.py", line 209, in execute
+[2020-06-01 15:29:30,327] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data     cluster_fields=self.cluster_fields,
+[2020-06-01 15:29:30,327] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 849, in run_query
+[2020-06-01 15:29:30,327] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data     return self.run_with_configuration(configuration)
+[2020-06-01 15:29:30,327] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data   File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/contrib/hooks/bigquery_hook.py", line 1248, in run_with_configuration
+[2020-06-01 15:29:30,327] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data     format(job['status']['errorResult'], job))
+[2020-06-01 15:29:30,327] {base_task_runner.py:101} INFO - Job 41: Subtask load_public_data Exception: BigQuery job failed. Final error was: {'reason': 'invalidQuery', 'location': 'query', 'message': 'Syntax error: Unexpected ")" at [6:62]'}. The job was: {'kind': 'bigquery#job', 'etag': 'oi2ul1kRxlaBRRFkxvPA3w==', 'id': 'sandbox-278915:US.job_8PX-StwM-liXD4F-XTdk8n-5gpyF', 'selfLink': 'https://bigquery.googleapis.com/bigquery/v2/projects/sandbox-278915/jobs/job_8PX-StwM-liXD4F-XTdk8n-5gpyF?location=US', 'user_email': 'airflow-sandbox@sandbox-278915.iam.gserviceaccount.com', 'configuration': {'query': {'query': "\n    #standardSQL\n            select date, \n    sum(total_confirmed_cases) as total_confirmed_cases\n    from bigquery-public-data.covid19_italy.data_by_region\n    where DATE(date) = DATE_SUB('2020-05-31', INTERVAL 1 DAY))\n    group by date\n    ", 'destinationTable': {'projectId': 'sandbox-278915', 'datasetId': 'airflow', 'tableId': 'covid_italy_daily_cases'}, 'createDisposition': 'CREATE_IF_NEEDED', 'writeDisposition': 'WRITE_TRUNCATE', 'priority': 'INTERACTIVE', 'allowLargeResults': True, 'useLegacySql': False, 'timePartitioning': {'type': 'DAY'}}, 'jobType': 'QUERY'}, 'jobReference': {'projectId': 'sandbox-278915', 'jobId': 'job_8PX-StwM-liXD4F-XTdk8n-5gpyF', 'location': 'US'}, 'statistics': {'creationTime': '1591021769942', 'startTime': '1591021769951', 'endTime': '1591021769951'}, 'status': {'errorResult': {'reason': 'invalidQuery', 'location': 'query', 'message': 'Syntax error: Unexpected ")" at [6:62]'}, 'errors': [{'reason': 'invalidQuery', 'location': 'query', 'message': 'Syntax error: Unexpected ")" at [6:62]'}], 'state': 'DONE'}}
+[2020-06-01 15:29:33,465] {logging_mixin.py:95} INFO - [2020-06-01 15:29:33,464] {jobs.py:2562} INFO - Task exited with return code 1

@@ -110,3 +110,422 @@
 [2020-06-01 15:16:29,736] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
 [2020-06-01 15:16:29,739] {jobs.py:1787} INFO - Creating / updating <TaskInstance: covid_italy_daily.load_public_data 2020-05-31 09:00:00+00:00 [scheduled]> in ORM
 [2020-06-01 15:16:29,745] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.407 seconds
+[2020-06-01 15:17:56,223] {jobs.py:398} INFO - Started process (PID=58705) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:17:56,229] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:17:56,230] {logging_mixin.py:95} INFO - [2020-06-01 15:17:56,230] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:17:56,617] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:17:56,635] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:17:56,646] {jobs.py:921} INFO - Examining DAG run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False>
+[2020-06-01 15:17:56,662] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:17:56,665] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.442 seconds
+[2020-06-01 15:18:42,369] {jobs.py:398} INFO - Started process (PID=58820) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:18:42,377] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:18:42,378] {logging_mixin.py:95} INFO - [2020-06-01 15:18:42,377] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:18:42,763] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:18:42,782] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:18:42,794] {jobs.py:921} INFO - Examining DAG run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False>
+[2020-06-01 15:18:42,810] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:18:42,812] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.444 seconds
+[2020-06-01 15:19:28,519] {jobs.py:398} INFO - Started process (PID=58942) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:19:28,527] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:19:28,528] {logging_mixin.py:95} INFO - [2020-06-01 15:19:28,528] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:19:28,889] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:19:28,907] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:19:28,918] {jobs.py:921} INFO - Examining DAG run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False>
+[2020-06-01 15:19:28,935] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:19:28,937] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.418 seconds
+[2020-06-01 15:20:14,678] {jobs.py:398} INFO - Started process (PID=59043) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:20:14,685] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:20:14,686] {logging_mixin.py:95} INFO - [2020-06-01 15:20:14,686] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:20:15,039] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:20:15,058] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:20:15,070] {jobs.py:921} INFO - Examining DAG run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False>
+[2020-06-01 15:20:15,085] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:20:15,088] {jobs.py:1787} INFO - Creating / updating <TaskInstance: covid_italy_daily.load_public_data 2020-05-31 09:00:00+00:00 [scheduled]> in ORM
+[2020-06-01 15:20:15,093] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.415 seconds
+[2020-06-01 15:21:36,944] {jobs.py:398} INFO - Started process (PID=59326) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:21:36,951] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:21:36,952] {logging_mixin.py:95} INFO - [2020-06-01 15:21:36,951] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:21:37,379] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:21:37,399] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:21:37,414] {jobs.py:921} INFO - Examining DAG run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False>
+[2020-06-01 15:21:37,421] {logging_mixin.py:95} INFO - [2020-06-01 15:21:37,421] {__init__.py:4846} INFO - Marking run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False> failed
+[2020-06-01 15:21:37,424] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:21:37,427] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.483 seconds
+[2020-06-01 15:22:23,076] {jobs.py:398} INFO - Started process (PID=59435) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:22:23,084] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:22:23,085] {logging_mixin.py:95} INFO - [2020-06-01 15:22:23,085] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:22:23,422] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:22:23,440] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:22:23,451] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:22:23,453] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.377 seconds
+[2020-06-01 15:23:09,213] {jobs.py:398} INFO - Started process (PID=59549) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:23:09,222] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:23:09,223] {logging_mixin.py:95} INFO - [2020-06-01 15:23:09,223] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:23:09,607] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:23:09,627] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:23:09,640] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:23:09,643] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.429 seconds
+[2020-06-01 15:23:55,350] {jobs.py:398} INFO - Started process (PID=59664) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:23:55,357] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:23:55,358] {logging_mixin.py:95} INFO - [2020-06-01 15:23:55,358] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:23:55,724] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:23:55,742] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:23:55,755] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:23:55,757] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.408 seconds
+[2020-06-01 15:24:41,478] {jobs.py:398} INFO - Started process (PID=59785) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:24:41,485] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:24:41,486] {logging_mixin.py:95} INFO - [2020-06-01 15:24:41,486] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:24:42,121] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:24:42,140] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:24:42,151] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:24:42,154] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.675 seconds
+[2020-06-01 15:25:27,609] {jobs.py:398} INFO - Started process (PID=59930) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:25:27,616] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:25:27,617] {logging_mixin.py:95} INFO - [2020-06-01 15:25:27,616] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:25:28,142] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:25:28,161] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:25:28,174] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:25:28,176] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.567 seconds
+[2020-06-01 15:26:13,736] {jobs.py:398} INFO - Started process (PID=60067) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:26:13,744] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:26:13,745] {logging_mixin.py:95} INFO - [2020-06-01 15:26:13,744] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:26:14,374] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:26:14,391] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:26:14,403] {jobs.py:921} INFO - Examining DAG run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False>
+[2020-06-01 15:26:14,419] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:26:14,422] {jobs.py:1787} INFO - Creating / updating <TaskInstance: covid_italy_daily.load_public_data 2020-05-31 09:00:00+00:00 [scheduled]> in ORM
+[2020-06-01 15:26:14,428] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.692 seconds
+[2020-06-01 15:27:05,989] {jobs.py:398} INFO - Started process (PID=60194) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:27:05,998] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:27:05,999] {logging_mixin.py:95} INFO - [2020-06-01 15:27:05,999] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:27:06,382] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:27:06,399] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:27:06,410] {jobs.py:921} INFO - Examining DAG run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False>
+[2020-06-01 15:27:06,427] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:27:06,429] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.440 seconds
+[2020-06-01 15:27:52,108] {jobs.py:398} INFO - Started process (PID=60313) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:27:52,114] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:27:52,115] {logging_mixin.py:95} INFO - [2020-06-01 15:27:52,115] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:27:52,438] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:27:52,455] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:27:52,467] {jobs.py:921} INFO - Examining DAG run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False>
+[2020-06-01 15:27:52,484] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:27:52,486] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.378 seconds
+[2020-06-01 15:28:38,237] {jobs.py:398} INFO - Started process (PID=60411) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:28:38,245] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:28:38,246] {logging_mixin.py:95} INFO - [2020-06-01 15:28:38,246] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:28:38,650] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:28:38,668] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:28:38,682] {jobs.py:921} INFO - Examining DAG run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False>
+[2020-06-01 15:28:38,701] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:28:38,704] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.467 seconds
+[2020-06-01 15:29:24,400] {jobs.py:398} INFO - Started process (PID=60526) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:29:24,406] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:29:24,407] {logging_mixin.py:95} INFO - [2020-06-01 15:29:24,407] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:29:24,732] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:29:24,749] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:29:24,760] {jobs.py:921} INFO - Examining DAG run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False>
+[2020-06-01 15:29:24,775] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:29:24,778] {jobs.py:1787} INFO - Creating / updating <TaskInstance: covid_italy_daily.load_public_data 2020-05-31 09:00:00+00:00 [scheduled]> in ORM
+[2020-06-01 15:29:24,784] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.384 seconds
+[2020-06-01 15:30:16,823] {jobs.py:398} INFO - Started process (PID=60690) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:30:16,829] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:30:16,830] {logging_mixin.py:95} INFO - [2020-06-01 15:30:16,830] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:30:17,167] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:30:17,184] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:30:17,195] {jobs.py:921} INFO - Examining DAG run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False>
+[2020-06-01 15:30:17,201] {logging_mixin.py:95} INFO - [2020-06-01 15:30:17,201] {__init__.py:4846} INFO - Marking run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False> failed
+[2020-06-01 15:30:17,203] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:30:17,205] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.383 seconds
+[2020-06-01 15:31:02,957] {jobs.py:398} INFO - Started process (PID=60804) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:31:02,963] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:31:02,964] {logging_mixin.py:95} INFO - [2020-06-01 15:31:02,964] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:31:03,304] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:31:03,322] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:31:03,335] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:31:03,337] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.380 seconds
+[2020-06-01 15:31:49,081] {jobs.py:398} INFO - Started process (PID=60916) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:31:49,090] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:31:49,091] {logging_mixin.py:95} INFO - [2020-06-01 15:31:49,091] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:31:49,429] {logging_mixin.py:95} INFO - [2020-06-01 15:31:49,423] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 51, in <module>
+    t1 >> t2
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 2324, in __rshift__
+    self.set_downstream(other)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 2784, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 2767, in _set_relatives
+    self.dag = dag
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 2384, in dag
+    dag.add_task(self)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 3916, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-06-01 15:31:49,430] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:31:49,438] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.356 seconds
+[2020-06-01 15:32:35,211] {jobs.py:398} INFO - Started process (PID=61037) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:32:35,218] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:32:35,219] {logging_mixin.py:95} INFO - [2020-06-01 15:32:35,218] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:32:35,617] {logging_mixin.py:95} INFO - [2020-06-01 15:32:35,615] {__init__.py:416} ERROR - Failed to import: /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+Traceback (most recent call last):
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 413, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 696, in _load
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py", line 51, in <module>
+    t1 >> t2
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 2324, in __rshift__
+    self.set_downstream(other)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 2784, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 2767, in _set_relatives
+    self.dag = dag
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 2384, in dag
+    dag.add_task(self)
+  File "/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/models/__init__.py", line 3916, in add_task
+    raise AirflowException("Task is missing the start_date parameter")
+airflow.exceptions.AirflowException: Task is missing the start_date parameter
+[2020-06-01 15:32:35,617] {jobs.py:1725} WARNING - No viable dags retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:32:35,624] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.412 seconds
+[2020-06-01 15:33:21,336] {jobs.py:398} INFO - Started process (PID=61163) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:33:21,341] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:33:21,342] {logging_mixin.py:95} INFO - [2020-06-01 15:33:21,342] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:33:21,738] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:33:21,757] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:33:21,769] {jobs.py:921} INFO - Examining DAG run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False>
+[2020-06-01 15:33:21,786] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:33:21,788] {jobs.py:1787} INFO - Creating / updating <TaskInstance: covid_italy_daily.load_public_data 2020-05-31 09:00:00+00:00 [scheduled]> in ORM
+[2020-06-01 15:33:21,795] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.459 seconds
+[2020-06-01 15:34:18,438] {jobs.py:398} INFO - Started process (PID=61334) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:34:18,445] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:34:18,446] {logging_mixin.py:95} INFO - [2020-06-01 15:34:18,445] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:34:18,767] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:34:18,783] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:34:18,793] {jobs.py:921} INFO - Examining DAG run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False>
+[2020-06-01 15:34:18,800] {logging_mixin.py:95} INFO - [2020-06-01 15:34:18,800] {__init__.py:4854} INFO - Marking run <DagRun covid_italy_daily @ 2020-05-31 09:00:00+00:00: scheduled__2020-05-31T09:00:00+00:00, externally triggered: False> successful
+[2020-06-01 15:34:18,803] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:34:18,805] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.367 seconds
+[2020-06-01 15:35:04,571] {jobs.py:398} INFO - Started process (PID=61433) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:35:04,577] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:35:04,578] {logging_mixin.py:95} INFO - [2020-06-01 15:35:04,577] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:35:04,905] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:35:04,921] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:35:04,932] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:35:04,934] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.363 seconds
+[2020-06-01 15:35:50,723] {jobs.py:398} INFO - Started process (PID=61575) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:35:50,731] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:35:50,732] {logging_mixin.py:95} INFO - [2020-06-01 15:35:50,732] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:35:51,070] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:35:51,087] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:35:51,098] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:35:51,100] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.377 seconds
+[2020-06-01 15:36:36,875] {jobs.py:398} INFO - Started process (PID=61694) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:36:36,883] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:36:36,884] {logging_mixin.py:95} INFO - [2020-06-01 15:36:36,884] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:36:37,236] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:36:37,253] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:36:37,264] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:36:37,266] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.391 seconds
+[2020-06-01 15:37:23,027] {jobs.py:398} INFO - Started process (PID=61810) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:37:23,033] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:37:23,034] {logging_mixin.py:95} INFO - [2020-06-01 15:37:23,034] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:37:23,388] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:37:23,403] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:37:23,414] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:37:23,416] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.389 seconds
+[2020-06-01 15:38:09,192] {jobs.py:398} INFO - Started process (PID=61913) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:38:09,199] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:38:09,200] {logging_mixin.py:95} INFO - [2020-06-01 15:38:09,199] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:38:09,526] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:38:09,542] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:38:09,552] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:38:09,554] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.363 seconds
+[2020-06-01 15:38:55,434] {jobs.py:398} INFO - Started process (PID=62029) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:38:55,442] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:38:55,443] {logging_mixin.py:95} INFO - [2020-06-01 15:38:55,443] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:38:55,793] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:38:55,808] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:38:55,818] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:38:55,820] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.386 seconds
+[2020-06-01 15:39:41,711] {jobs.py:398} INFO - Started process (PID=62163) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:39:41,720] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:39:41,721] {logging_mixin.py:95} INFO - [2020-06-01 15:39:41,720] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:39:42,051] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:39:42,066] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:39:42,076] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:39:42,079] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.367 seconds
+[2020-06-01 15:40:28,036] {jobs.py:398} INFO - Started process (PID=62289) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:40:28,043] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:40:28,044] {logging_mixin.py:95} INFO - [2020-06-01 15:40:28,044] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:40:28,374] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:40:28,389] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:40:28,400] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:40:28,402] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.366 seconds
+[2020-06-01 15:41:14,320] {jobs.py:398} INFO - Started process (PID=62427) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:41:14,327] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:41:14,328] {logging_mixin.py:95} INFO - [2020-06-01 15:41:14,327] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:41:14,658] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:41:14,673] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:41:14,684] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:41:14,686] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.366 seconds
+[2020-06-01 15:42:00,652] {jobs.py:398} INFO - Started process (PID=62542) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:42:00,658] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:42:00,659] {logging_mixin.py:95} INFO - [2020-06-01 15:42:00,659] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:42:00,998] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:42:01,013] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:42:01,023] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:42:01,025] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.374 seconds
+[2020-06-01 15:42:46,949] {jobs.py:398} INFO - Started process (PID=62658) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:42:46,957] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:42:46,958] {logging_mixin.py:95} INFO - [2020-06-01 15:42:46,957] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:42:47,283] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:42:47,298] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:42:47,308] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:42:47,310] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.361 seconds
+[2020-06-01 15:43:33,201] {jobs.py:398} INFO - Started process (PID=62759) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:43:33,208] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:43:33,209] {logging_mixin.py:95} INFO - [2020-06-01 15:43:33,209] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:43:33,539] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:43:33,554] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:43:33,564] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:43:33,566] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.366 seconds
+[2020-06-01 15:44:19,514] {jobs.py:398} INFO - Started process (PID=62876) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:44:19,520] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:44:19,520] {logging_mixin.py:95} INFO - [2020-06-01 15:44:19,520] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:44:19,848] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:44:19,867] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:44:19,878] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:44:19,880] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.366 seconds
+[2020-06-01 15:45:05,789] {jobs.py:398} INFO - Started process (PID=62992) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:45:05,795] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:45:05,796] {logging_mixin.py:95} INFO - [2020-06-01 15:45:05,796] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:45:06,130] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:45:06,144] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:45:06,153] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:45:06,155] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.366 seconds
+[2020-06-01 15:45:52,061] {jobs.py:398} INFO - Started process (PID=63116) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:45:52,069] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:45:52,070] {logging_mixin.py:95} INFO - [2020-06-01 15:45:52,070] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:45:52,397] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:45:52,413] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:45:52,423] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:45:52,425] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.365 seconds
+[2020-06-01 15:46:38,362] {jobs.py:398} INFO - Started process (PID=63234) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:46:38,370] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:46:38,371] {logging_mixin.py:95} INFO - [2020-06-01 15:46:38,370] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:46:38,699] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:46:38,715] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:46:38,725] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:46:38,727] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.366 seconds
+[2020-06-01 15:47:24,652] {jobs.py:398} INFO - Started process (PID=63349) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:47:24,660] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:47:24,660] {logging_mixin.py:95} INFO - [2020-06-01 15:47:24,660] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:47:24,994] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:47:25,007] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:47:25,016] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:47:25,018] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.366 seconds
+[2020-06-01 15:48:10,924] {jobs.py:398} INFO - Started process (PID=63464) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:48:10,937] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:48:10,937] {logging_mixin.py:95} INFO - [2020-06-01 15:48:10,937] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:48:11,262] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:48:11,277] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:48:11,288] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:48:11,290] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.365 seconds
+[2020-06-01 15:48:57,236] {jobs.py:398} INFO - Started process (PID=63566) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:48:57,243] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:48:57,243] {logging_mixin.py:95} INFO - [2020-06-01 15:48:57,243] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:48:57,568] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:48:57,582] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:48:57,593] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:48:57,595] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.359 seconds
+[2020-06-01 15:49:43,548] {jobs.py:398} INFO - Started process (PID=63682) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:49:43,555] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:49:43,556] {logging_mixin.py:95} INFO - [2020-06-01 15:49:43,556] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:49:43,882] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:49:43,896] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:49:43,909] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:49:43,911] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.363 seconds
+[2020-06-01 15:50:29,842] {jobs.py:398} INFO - Started process (PID=63825) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:50:29,849] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:50:29,850] {logging_mixin.py:95} INFO - [2020-06-01 15:50:29,850] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:50:30,188] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:50:30,202] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:50:30,213] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:50:30,215] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.373 seconds
+[2020-06-01 15:51:16,141] {jobs.py:398} INFO - Started process (PID=63921) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:51:16,149] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:51:16,150] {logging_mixin.py:95} INFO - [2020-06-01 15:51:16,149] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:51:16,472] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:51:16,486] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:51:16,494] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:51:16,496] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.356 seconds
+[2020-06-01 15:52:02,417] {jobs.py:398} INFO - Started process (PID=64829) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:52:02,424] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:52:02,425] {logging_mixin.py:95} INFO - [2020-06-01 15:52:02,425] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:52:02,775] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:52:02,795] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:52:02,809] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:52:02,811] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.394 seconds
+[2020-06-01 15:52:48,720] {jobs.py:398} INFO - Started process (PID=64953) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:52:48,727] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:52:48,728] {logging_mixin.py:95} INFO - [2020-06-01 15:52:48,728] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:52:49,072] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:52:49,087] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:52:49,099] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:52:49,101] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.381 seconds
+[2020-06-01 15:53:34,987] {jobs.py:398} INFO - Started process (PID=65090) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:53:34,994] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:53:34,995] {logging_mixin.py:95} INFO - [2020-06-01 15:53:34,995] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:53:35,324] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:53:35,338] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:53:35,349] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:53:35,351] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.364 seconds
+[2020-06-01 15:54:21,293] {jobs.py:398} INFO - Started process (PID=65208) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:54:21,300] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:54:21,301] {logging_mixin.py:95} INFO - [2020-06-01 15:54:21,300] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:54:21,627] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:54:21,643] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:54:21,654] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:54:21,656] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.363 seconds
+[2020-06-01 15:55:07,565] {jobs.py:398} INFO - Started process (PID=65333) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:55:07,573] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:55:07,574] {logging_mixin.py:95} INFO - [2020-06-01 15:55:07,573] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:55:07,905] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:55:07,922] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:55:07,934] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:55:07,936] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.371 seconds
+[2020-06-01 15:55:53,854] {jobs.py:398} INFO - Started process (PID=65466) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:55:53,860] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:55:53,861] {logging_mixin.py:95} INFO - [2020-06-01 15:55:53,861] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:55:54,188] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:55:54,202] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:55:54,211] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:55:54,213] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.359 seconds
+[2020-06-01 15:56:40,129] {jobs.py:398} INFO - Started process (PID=65567) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:56:40,156] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:56:40,157] {logging_mixin.py:95} INFO - [2020-06-01 15:56:40,157] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:56:40,509] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:56:40,523] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:56:40,534] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:56:40,536] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.407 seconds
+[2020-06-01 15:57:26,302] {jobs.py:398} INFO - Started process (PID=65682) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:57:26,310] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py for tasks to queue
+[2020-06-01 15:57:26,310] {logging_mixin.py:95} INFO - [2020-06-01 15:57:26,310] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:57:26,633] {jobs.py:1723} INFO - DAG(s) dict_keys(['covid_italy_daily']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-01 15:57:26,651] {jobs.py:1446} INFO - Processing covid_italy_daily
+[2020-06-01 15:57:26,662] {jobs.py:632} INFO - Skipping SLA check for <DAG: covid_italy_daily> because no tasks in DAG have SLAs
+[2020-06-01 15:57:26,664] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py took 0.362 seconds
