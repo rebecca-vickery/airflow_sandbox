@@ -1,0 +1,415 @@
+[2020-06-05 13:20:56,065] {jobs.py:398} INFO - Started process (PID=21342) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:20:56,086] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:20:56,087] {logging_mixin.py:95} INFO - [2020-06-05 13:20:56,087] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:20:56,093] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:20:56,110] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.045 seconds
+[2020-06-05 13:22:09,467] {jobs.py:398} INFO - Started process (PID=21556) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:22:09,476] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:22:09,477] {logging_mixin.py:95} INFO - [2020-06-05 13:22:09,477] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:22:09,484] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:22:09,502] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.035 seconds
+[2020-06-05 13:23:06,196] {jobs.py:398} INFO - Started process (PID=21704) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:23:06,204] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:23:06,205] {logging_mixin.py:95} INFO - [2020-06-05 13:23:06,205] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:23:06,213] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:23:06,230] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 13:23:52,372] {jobs.py:398} INFO - Started process (PID=21807) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:23:52,379] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:23:52,380] {logging_mixin.py:95} INFO - [2020-06-05 13:23:52,380] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:23:52,388] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:23:52,405] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.033 seconds
+[2020-06-05 13:24:38,489] {jobs.py:398} INFO - Started process (PID=21945) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:24:38,495] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:24:38,496] {logging_mixin.py:95} INFO - [2020-06-05 13:24:38,496] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:24:38,503] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:24:38,523] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 13:25:24,582] {jobs.py:398} INFO - Started process (PID=22088) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:25:24,588] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:25:24,589] {logging_mixin.py:95} INFO - [2020-06-05 13:25:24,589] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:25:24,595] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:25:24,612] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.030 seconds
+[2020-06-05 13:26:10,694] {jobs.py:398} INFO - Started process (PID=22185) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:26:10,702] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:26:10,703] {logging_mixin.py:95} INFO - [2020-06-05 13:26:10,703] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:26:10,710] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:26:10,731] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.037 seconds
+[2020-06-05 13:26:56,820] {jobs.py:398} INFO - Started process (PID=22307) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:26:56,828] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:26:56,829] {logging_mixin.py:95} INFO - [2020-06-05 13:26:56,828] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:26:56,838] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:26:56,854] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 13:27:42,910] {jobs.py:398} INFO - Started process (PID=22431) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:27:42,917] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:27:42,918] {logging_mixin.py:95} INFO - [2020-06-05 13:27:42,917] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:27:42,925] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:27:42,941] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.031 seconds
+[2020-06-05 13:28:29,053] {jobs.py:398} INFO - Started process (PID=22555) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:28:29,060] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:28:29,061] {logging_mixin.py:95} INFO - [2020-06-05 13:28:29,060] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:28:29,069] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:28:29,088] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.035 seconds
+[2020-06-05 13:29:15,174] {jobs.py:398} INFO - Started process (PID=22651) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:29:15,197] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:29:15,198] {logging_mixin.py:95} INFO - [2020-06-05 13:29:15,197] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:29:15,205] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:29:15,226] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.052 seconds
+[2020-06-05 13:30:01,281] {jobs.py:398} INFO - Started process (PID=22769) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:30:01,289] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:30:01,290] {logging_mixin.py:95} INFO - [2020-06-05 13:30:01,290] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:30:01,298] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:30:01,317] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.036 seconds
+[2020-06-05 13:30:47,405] {jobs.py:398} INFO - Started process (PID=22911) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:30:47,415] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:30:47,416] {logging_mixin.py:95} INFO - [2020-06-05 13:30:47,415] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:30:47,422] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:30:47,439] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 13:31:33,501] {jobs.py:398} INFO - Started process (PID=23026) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:31:33,508] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:31:33,509] {logging_mixin.py:95} INFO - [2020-06-05 13:31:33,509] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:31:33,517] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:31:33,534] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.033 seconds
+[2020-06-05 13:32:19,644] {jobs.py:398} INFO - Started process (PID=23122) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:32:19,651] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:32:19,652] {logging_mixin.py:95} INFO - [2020-06-05 13:32:19,652] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:32:19,660] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:32:19,677] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 13:33:05,785] {jobs.py:398} INFO - Started process (PID=23238) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:33:05,792] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:33:05,793] {logging_mixin.py:95} INFO - [2020-06-05 13:33:05,793] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:33:05,799] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:33:05,817] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.031 seconds
+[2020-06-05 13:33:51,932] {jobs.py:398} INFO - Started process (PID=23352) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:33:51,942] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:33:51,943] {logging_mixin.py:95} INFO - [2020-06-05 13:33:51,942] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:33:51,950] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:33:51,970] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.038 seconds
+[2020-06-05 13:34:38,078] {jobs.py:398} INFO - Started process (PID=23467) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:34:38,085] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:34:38,086] {logging_mixin.py:95} INFO - [2020-06-05 13:34:38,085] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:34:38,093] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:34:38,110] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.032 seconds
+[2020-06-05 13:35:24,242] {jobs.py:398} INFO - Started process (PID=23591) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:35:24,250] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:35:24,251] {logging_mixin.py:95} INFO - [2020-06-05 13:35:24,251] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:35:24,260] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:35:24,278] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.035 seconds
+[2020-06-05 13:36:10,410] {jobs.py:398} INFO - Started process (PID=23709) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:36:10,417] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:36:10,418] {logging_mixin.py:95} INFO - [2020-06-05 13:36:10,418] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:36:10,426] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:36:10,443] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.033 seconds
+[2020-06-05 13:36:56,553] {jobs.py:398} INFO - Started process (PID=23823) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:36:56,560] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:36:56,561] {logging_mixin.py:95} INFO - [2020-06-05 13:36:56,561] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:36:56,568] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:36:56,586] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.033 seconds
+[2020-06-05 13:37:42,707] {jobs.py:398} INFO - Started process (PID=23941) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:37:42,714] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:37:42,715] {logging_mixin.py:95} INFO - [2020-06-05 13:37:42,714] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:37:42,721] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:37:42,739] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.032 seconds
+[2020-06-05 13:38:28,866] {jobs.py:398} INFO - Started process (PID=24046) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:38:28,874] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:38:28,875] {logging_mixin.py:95} INFO - [2020-06-05 13:38:28,875] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:38:28,885] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:38:28,902] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.036 seconds
+[2020-06-05 13:39:15,018] {jobs.py:398} INFO - Started process (PID=24206) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:39:15,026] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:39:15,027] {logging_mixin.py:95} INFO - [2020-06-05 13:39:15,027] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:39:15,034] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:39:15,051] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.032 seconds
+[2020-06-05 13:40:01,178] {jobs.py:398} INFO - Started process (PID=24322) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:40:01,185] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:40:01,185] {logging_mixin.py:95} INFO - [2020-06-05 13:40:01,185] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:40:01,193] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:40:01,208] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.029 seconds
+[2020-06-05 13:40:47,335] {jobs.py:398} INFO - Started process (PID=24451) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:40:47,341] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:40:47,342] {logging_mixin.py:95} INFO - [2020-06-05 13:40:47,342] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:40:47,349] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:40:47,367] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.032 seconds
+[2020-06-05 13:41:33,451] {jobs.py:398} INFO - Started process (PID=24589) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:41:33,458] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:41:33,459] {logging_mixin.py:95} INFO - [2020-06-05 13:41:33,458] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:41:33,465] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:41:33,483] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.032 seconds
+[2020-06-05 13:42:19,580] {jobs.py:398} INFO - Started process (PID=24703) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:42:19,589] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:42:19,590] {logging_mixin.py:95} INFO - [2020-06-05 13:42:19,590] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:42:19,596] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:42:19,613] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 13:43:05,691] {jobs.py:398} INFO - Started process (PID=24818) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:43:05,699] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:43:05,700] {logging_mixin.py:95} INFO - [2020-06-05 13:43:05,699] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:43:05,707] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:43:05,727] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.036 seconds
+[2020-06-05 13:43:51,838] {jobs.py:398} INFO - Started process (PID=24916) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:43:51,847] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:43:51,849] {logging_mixin.py:95} INFO - [2020-06-05 13:43:51,848] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:43:51,859] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:43:51,880] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.042 seconds
+[2020-06-05 13:44:37,959] {jobs.py:398} INFO - Started process (PID=25036) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:44:37,967] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:44:37,968] {logging_mixin.py:95} INFO - [2020-06-05 13:44:37,968] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:44:37,975] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:44:38,000] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.040 seconds
+[2020-06-05 13:45:24,071] {jobs.py:398} INFO - Started process (PID=25178) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:45:24,080] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:45:24,081] {logging_mixin.py:95} INFO - [2020-06-05 13:45:24,081] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:45:24,088] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:45:24,105] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 13:46:10,192] {jobs.py:398} INFO - Started process (PID=25295) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:46:10,201] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:46:10,202] {logging_mixin.py:95} INFO - [2020-06-05 13:46:10,202] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:46:10,208] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:46:10,226] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 13:46:56,325] {jobs.py:398} INFO - Started process (PID=25391) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:46:56,332] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:46:56,333] {logging_mixin.py:95} INFO - [2020-06-05 13:46:56,333] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:46:56,340] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:46:56,358] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.033 seconds
+[2020-06-05 13:47:42,462] {jobs.py:398} INFO - Started process (PID=25511) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:47:42,468] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:47:42,469] {logging_mixin.py:95} INFO - [2020-06-05 13:47:42,469] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:47:42,478] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:47:42,494] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.032 seconds
+[2020-06-05 13:48:28,561] {jobs.py:398} INFO - Started process (PID=25625) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:48:28,567] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:48:28,568] {logging_mixin.py:95} INFO - [2020-06-05 13:48:28,568] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:48:28,576] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:48:28,594] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.033 seconds
+[2020-06-05 13:49:14,672] {jobs.py:398} INFO - Started process (PID=25722) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:49:14,681] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:49:14,681] {logging_mixin.py:95} INFO - [2020-06-05 13:49:14,681] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:49:14,688] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:49:14,706] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 13:50:00,791] {jobs.py:398} INFO - Started process (PID=25838) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:50:00,797] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:50:00,798] {logging_mixin.py:95} INFO - [2020-06-05 13:50:00,797] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:50:00,806] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:50:00,821] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.031 seconds
+[2020-06-05 13:50:46,910] {jobs.py:398} INFO - Started process (PID=25988) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:50:46,958] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:50:46,960] {logging_mixin.py:95} INFO - [2020-06-05 13:50:46,959] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:50:46,968] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:50:46,988] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.078 seconds
+[2020-06-05 13:51:33,042] {jobs.py:398} INFO - Started process (PID=26103) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:51:33,049] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:51:33,050] {logging_mixin.py:95} INFO - [2020-06-05 13:51:33,049] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:51:33,058] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:51:33,074] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.032 seconds
+[2020-06-05 13:52:19,170] {jobs.py:398} INFO - Started process (PID=26199) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:52:19,176] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:52:19,177] {logging_mixin.py:95} INFO - [2020-06-05 13:52:19,177] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:52:19,184] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:52:19,201] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.031 seconds
+[2020-06-05 13:53:05,281] {jobs.py:398} INFO - Started process (PID=26314) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:53:05,290] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:53:05,291] {logging_mixin.py:95} INFO - [2020-06-05 13:53:05,290] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:53:05,297] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:53:05,314] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.033 seconds
+[2020-06-05 13:53:51,408] {jobs.py:398} INFO - Started process (PID=26429) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:53:51,416] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:53:51,417] {logging_mixin.py:95} INFO - [2020-06-05 13:53:51,416] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:53:51,424] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:53:51,441] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 13:54:38,055] {jobs.py:398} INFO - Started process (PID=26560) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:54:38,062] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:54:38,063] {logging_mixin.py:95} INFO - [2020-06-05 13:54:38,063] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:54:38,072] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:54:38,089] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 13:55:24,169] {jobs.py:398} INFO - Started process (PID=26685) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:55:24,177] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:55:24,178] {logging_mixin.py:95} INFO - [2020-06-05 13:55:24,178] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:55:24,184] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:55:24,202] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.033 seconds
+[2020-06-05 13:56:10,287] {jobs.py:398} INFO - Started process (PID=26803) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:56:10,295] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:56:10,296] {logging_mixin.py:95} INFO - [2020-06-05 13:56:10,295] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:56:10,302] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:56:10,320] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 13:56:56,391] {jobs.py:398} INFO - Started process (PID=26917) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:56:56,401] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:56:56,402] {logging_mixin.py:95} INFO - [2020-06-05 13:56:56,402] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:56:56,408] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:56:56,425] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.035 seconds
+[2020-06-05 13:57:42,504] {jobs.py:398} INFO - Started process (PID=27019) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:57:42,512] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:57:42,513] {logging_mixin.py:95} INFO - [2020-06-05 13:57:42,513] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:57:42,522] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:57:42,540] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.036 seconds
+[2020-06-05 13:58:28,623] {jobs.py:398} INFO - Started process (PID=27135) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:58:28,630] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:58:28,631] {logging_mixin.py:95} INFO - [2020-06-05 13:58:28,631] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:58:28,640] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:58:28,657] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 13:59:14,755] {jobs.py:398} INFO - Started process (PID=27250) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:59:14,762] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 13:59:14,763] {logging_mixin.py:95} INFO - [2020-06-05 13:59:14,763] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:59:14,769] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 13:59:14,787] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.031 seconds
+[2020-06-05 14:00:00,869] {jobs.py:398} INFO - Started process (PID=27365) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:00:00,876] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:00:00,876] {logging_mixin.py:95} INFO - [2020-06-05 14:00:00,876] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:00:00,882] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:00:00,899] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.030 seconds
+[2020-06-05 14:00:46,995] {jobs.py:398} INFO - Started process (PID=27491) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:00:47,003] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:00:47,004] {logging_mixin.py:95} INFO - [2020-06-05 14:00:47,004] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:00:47,011] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:00:47,032] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.038 seconds
+[2020-06-05 14:01:33,090] {jobs.py:398} INFO - Started process (PID=27645) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:01:33,097] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:01:33,098] {logging_mixin.py:95} INFO - [2020-06-05 14:01:33,098] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:01:33,107] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:01:33,126] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.036 seconds
+[2020-06-05 14:02:19,212] {jobs.py:398} INFO - Started process (PID=27761) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:02:19,218] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:02:19,219] {logging_mixin.py:95} INFO - [2020-06-05 14:02:19,219] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:02:19,227] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:02:19,246] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 14:03:05,341] {jobs.py:398} INFO - Started process (PID=27876) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:03:05,347] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:03:05,348] {logging_mixin.py:95} INFO - [2020-06-05 14:03:05,348] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:03:05,356] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:03:05,373] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.033 seconds
+[2020-06-05 14:03:51,453] {jobs.py:398} INFO - Started process (PID=27972) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:03:51,460] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:03:51,461] {logging_mixin.py:95} INFO - [2020-06-05 14:03:51,460] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:03:51,467] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:03:51,487] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 14:04:37,590] {jobs.py:398} INFO - Started process (PID=28093) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:04:37,600] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:04:37,601] {logging_mixin.py:95} INFO - [2020-06-05 14:04:37,600] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:04:37,607] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:04:37,624] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 14:05:23,714] {jobs.py:398} INFO - Started process (PID=28235) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:05:23,722] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:05:23,723] {logging_mixin.py:95} INFO - [2020-06-05 14:05:23,722] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:05:23,730] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:05:23,748] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 14:06:13,381] {jobs.py:398} INFO - Started process (PID=28360) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:06:13,389] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:06:13,390] {logging_mixin.py:95} INFO - [2020-06-05 14:06:13,390] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:06:13,398] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:06:13,415] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 14:06:59,621] {jobs.py:398} INFO - Started process (PID=28475) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:06:59,627] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:06:59,628] {logging_mixin.py:95} INFO - [2020-06-05 14:06:59,628] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:06:59,636] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:06:59,652] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.031 seconds
+[2020-06-05 14:07:45,732] {jobs.py:398} INFO - Started process (PID=28813) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:07:45,740] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:07:45,741] {logging_mixin.py:95} INFO - [2020-06-05 14:07:45,741] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:07:45,748] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:07:45,766] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 14:08:31,847] {jobs.py:398} INFO - Started process (PID=28928) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:08:31,861] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:08:31,863] {logging_mixin.py:95} INFO - [2020-06-05 14:08:31,862] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:08:31,870] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:08:31,888] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.040 seconds
+[2020-06-05 14:09:17,977] {jobs.py:398} INFO - Started process (PID=29041) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:09:17,987] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:09:17,988] {logging_mixin.py:95} INFO - [2020-06-05 14:09:17,988] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:09:17,994] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:09:18,017] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.040 seconds
+[2020-06-05 14:10:04,120] {jobs.py:398} INFO - Started process (PID=29164) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:10:04,128] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:10:04,129] {logging_mixin.py:95} INFO - [2020-06-05 14:10:04,128] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:10:04,137] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:10:04,154] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 14:10:50,231] {jobs.py:398} INFO - Started process (PID=29306) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:10:50,238] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:10:50,239] {logging_mixin.py:95} INFO - [2020-06-05 14:10:50,239] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:10:50,249] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:10:50,268] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.037 seconds
+[2020-06-05 14:11:36,352] {jobs.py:398} INFO - Started process (PID=29420) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:11:36,361] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:11:36,362] {logging_mixin.py:95} INFO - [2020-06-05 14:11:36,362] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:11:36,370] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:11:36,391] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.039 seconds
+[2020-06-05 14:12:22,473] {jobs.py:398} INFO - Started process (PID=29518) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:12:22,482] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:12:22,483] {logging_mixin.py:95} INFO - [2020-06-05 14:12:22,483] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:12:22,490] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:12:22,507] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.035 seconds
+[2020-06-05 14:13:08,587] {jobs.py:398} INFO - Started process (PID=30434) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:13:08,598] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:13:08,599] {logging_mixin.py:95} INFO - [2020-06-05 14:13:08,599] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:13:08,605] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:13:08,623] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.036 seconds
+[2020-06-05 14:13:54,689] {jobs.py:398} INFO - Started process (PID=30564) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:13:54,697] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:13:54,698] {logging_mixin.py:95} INFO - [2020-06-05 14:13:54,697] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:13:54,706] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:13:54,723] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.035 seconds
+[2020-06-05 14:14:40,816] {jobs.py:398} INFO - Started process (PID=30706) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:14:40,824] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:14:40,826] {logging_mixin.py:95} INFO - [2020-06-05 14:14:40,825] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:14:40,834] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:14:40,853] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.037 seconds
+[2020-06-05 14:15:26,933] {jobs.py:398} INFO - Started process (PID=30852) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:15:26,940] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:15:26,941] {logging_mixin.py:95} INFO - [2020-06-05 14:15:26,940] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:15:26,947] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:15:26,966] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.033 seconds
+[2020-06-05 14:16:13,067] {jobs.py:398} INFO - Started process (PID=31040) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:16:13,074] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:16:13,075] {logging_mixin.py:95} INFO - [2020-06-05 14:16:13,074] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:16:13,081] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:16:13,098] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.031 seconds
+[2020-06-05 14:16:59,184] {jobs.py:398} INFO - Started process (PID=31161) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:16:59,196] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:16:59,198] {logging_mixin.py:95} INFO - [2020-06-05 14:16:59,197] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:16:59,207] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:16:59,228] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.044 seconds
+[2020-06-05 14:17:45,284] {jobs.py:398} INFO - Started process (PID=31283) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:17:45,293] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:17:45,294] {logging_mixin.py:95} INFO - [2020-06-05 14:17:45,293] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:17:45,303] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:17:45,319] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.035 seconds
+[2020-06-05 14:18:31,425] {jobs.py:398} INFO - Started process (PID=31380) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:18:31,433] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:18:31,434] {logging_mixin.py:95} INFO - [2020-06-05 14:18:31,433] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:18:31,440] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:18:31,459] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 14:19:17,558] {jobs.py:398} INFO - Started process (PID=31501) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:19:17,566] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:19:17,567] {logging_mixin.py:95} INFO - [2020-06-05 14:19:17,567] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:19:17,573] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:19:17,591] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.033 seconds
+[2020-06-05 14:20:03,689] {jobs.py:398} INFO - Started process (PID=31618) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:20:03,699] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:20:03,700] {logging_mixin.py:95} INFO - [2020-06-05 14:20:03,699] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:20:03,706] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:20:03,724] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.035 seconds
+[2020-06-05 14:28:15,073] {jobs.py:398} INFO - Started process (PID=31768) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:28:15,848] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:28:15,849] {logging_mixin.py:95} INFO - [2020-06-05 14:28:15,848] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:28:15,854] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:28:15,870] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.797 seconds
+[2020-06-05 14:29:01,201] {jobs.py:398} INFO - Started process (PID=31883) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:29:01,208] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:29:01,209] {logging_mixin.py:95} INFO - [2020-06-05 14:29:01,208] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:29:01,217] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:29:01,234] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 14:29:47,315] {jobs.py:398} INFO - Started process (PID=32043) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:29:47,323] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:29:47,324] {logging_mixin.py:95} INFO - [2020-06-05 14:29:47,324] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:29:47,333] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:29:47,350] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.035 seconds
+[2020-06-05 14:30:33,429] {jobs.py:398} INFO - Started process (PID=32211) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:30:33,435] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:30:33,436] {logging_mixin.py:95} INFO - [2020-06-05 14:30:33,436] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:30:33,442] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:30:33,460] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.032 seconds
+[2020-06-05 14:31:19,544] {jobs.py:398} INFO - Started process (PID=32311) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:31:19,550] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:31:19,551] {logging_mixin.py:95} INFO - [2020-06-05 14:31:19,550] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:31:19,557] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:31:19,577] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.034 seconds
+[2020-06-05 14:32:05,657] {jobs.py:398} INFO - Started process (PID=32426) to work on /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:32:05,666] {jobs.py:1711} INFO - Processing file /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py for tasks to queue
+[2020-06-05 14:32:05,667] {logging_mixin.py:95} INFO - [2020-06-05 14:32:05,666] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:32:05,673] {jobs.py:1723} INFO - DAG(s) dict_keys(['test']) retrieved from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py
+[2020-06-05 14:32:05,690] {jobs.py:406} INFO - Processing /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/test.py took 0.033 seconds

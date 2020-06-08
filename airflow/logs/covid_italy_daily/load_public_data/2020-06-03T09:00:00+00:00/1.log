@@ -1,0 +1,22 @@
+[2020-06-04 11:02:41,600] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: covid_italy_daily.load_public_data 2020-06-03T09:00:00+00:00 [queued]>
+[2020-06-04 11:02:41,607] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: covid_italy_daily.load_public_data 2020-06-03T09:00:00+00:00 [queued]>
+[2020-06-04 11:02:41,607] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-04 11:02:41,607] {__init__.py:1354} INFO - Starting attempt 1 of 2
+[2020-06-04 11:02:41,607] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-04 11:02:41,612] {__init__.py:1374} INFO - Executing <Task(BigQueryOperator): load_public_data> on 2020-06-03T09:00:00+00:00
+[2020-06-04 11:02:41,613] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'covid_italy_daily', 'load_public_data', '2020-06-03T09:00:00+00:00', '--job_id', '58', '--raw', '-sd', 'DAGS_FOLDER/covid_italy_daily.py', '--cfg_path', '/var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T/tmprm2z6n8q']
+[2020-06-04 11:02:42,368] {base_task_runner.py:101} INFO - Job 58: Subtask load_public_data [2020-06-04 11:02:42,368] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2020-06-04 11:02:42,582] {base_task_runner.py:101} INFO - Job 58: Subtask load_public_data [2020-06-04 11:02:42,582] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/Documents/Github/airflow_sandbox/airflow/dags/covid_italy_daily.py
+[2020-06-04 11:02:42,887] {base_task_runner.py:101} INFO - Job 58: Subtask load_public_data [2020-06-04 11:02:42,887] {cli.py:517} INFO - Running <TaskInstance: covid_italy_daily.load_public_data 2020-06-03T09:00:00+00:00 [running]> on host HX3286T2.local
+[2020-06-04 11:02:42,906] {bigquery_operator.py:184} INFO - Executing: 
+    #standardSQL
+            select date, 
+    sum(total_confirmed_cases) as total_confirmed_cases
+    from bigquery-public-data.covid19_italy.data_by_region
+    where DATE(date) = '2020-06-03'
+    group by date
+    
+[2020-06-04 11:02:44,325] {logging_mixin.py:95} INFO - [2020-06-04 11:02:44,325] {bigquery_hook.py:1251} INFO - Waiting for job to complete : sandbox-278915, job_CZeJE20B_73gQ5F_2wFjhRyVdngS
+[2020-06-04 11:02:51,615] {logging_mixin.py:95} INFO - [2020-06-04 11:02:51,614] {jobs.py:2562} INFO - Task exited with return code 0

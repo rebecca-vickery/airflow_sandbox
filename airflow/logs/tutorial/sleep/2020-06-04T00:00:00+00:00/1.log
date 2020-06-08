@@ -1,0 +1,24 @@
+[2020-06-05 13:21:21,519] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: tutorial.sleep 2020-06-04T00:00:00+00:00 [queued]>
+[2020-06-05 13:21:21,525] {__init__.py:1139} INFO - Dependencies all met for <TaskInstance: tutorial.sleep 2020-06-04T00:00:00+00:00 [queued]>
+[2020-06-05 13:21:21,526] {__init__.py:1353} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 13:21:21,526] {__init__.py:1354} INFO - Starting attempt 1 of 2
+[2020-06-05 13:21:21,526] {__init__.py:1355} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 13:21:21,531] {__init__.py:1374} INFO - Executing <Task(BashOperator): sleep> on 2020-06-04T00:00:00+00:00
+[2020-06-05 13:21:21,531] {base_task_runner.py:119} INFO - Running: ['airflow', 'run', 'tutorial', 'sleep', '2020-06-04T00:00:00+00:00', '--job_id', '60', '--raw', '-sd', '/Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/example_dags/tutorial.py', '--cfg_path', '/var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T/tmpu9uwqulb']
+[2020-06-05 13:21:22,247] {base_task_runner.py:101} INFO - Job 60: Subtask sleep [2020-06-05 13:21:22,246] {__init__.py:51} INFO - Using executor SequentialExecutor
+[2020-06-05 13:21:22,497] {base_task_runner.py:101} INFO - Job 60: Subtask sleep [2020-06-05 13:21:22,497] {__init__.py:305} INFO - Filling up the DagBag from /Users/rebecca.vickery/.local/share/virtualenvs/airflow_sandbox-x5mYwKUH/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2020-06-05 13:21:22,515] {base_task_runner.py:101} INFO - Job 60: Subtask sleep [2020-06-05 13:21:22,515] {cli.py:517} INFO - Running <TaskInstance: tutorial.sleep 2020-06-04T00:00:00+00:00 [running]> on host HX3286T2.local
+[2020-06-05 13:21:22,529] {bash_operator.py:81} INFO - Tmp dir root location: 
+ /var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T
+[2020-06-05 13:21:22,529] {bash_operator.py:90} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=sleep
+AIRFLOW_CTX_EXECUTION_DATE=2020-06-04T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2020-06-04T00:00:00+00:00
+[2020-06-05 13:21:22,530] {bash_operator.py:104} INFO - Temporary script location: /var/folders/y6/nhshp1rd3kj1kwtclmvq1nfsrtp362/T/airflowtmprskkjc4a/sleep6sq1c00k
+[2020-06-05 13:21:22,530] {bash_operator.py:114} INFO - Running command: sleep 5
+[2020-06-05 13:21:22,536] {bash_operator.py:123} INFO - Output:
+[2020-06-05 13:21:27,548] {bash_operator.py:131} INFO - Command exited with return code 0
+[2020-06-05 13:21:31,520] {logging_mixin.py:95} INFO - [2020-06-05 13:21:31,520] {jobs.py:2562} INFO - Task exited with return code 0
